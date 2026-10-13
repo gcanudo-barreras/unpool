@@ -95,7 +95,9 @@ downloads 13 open-access supplements (*Nature Communications*, 2026; about
 line per sheet) and writes **1,311 animals from 39 sheets in 13 papers**:
 one row per animal and time point, with DOI, licence, sheet, arm, tumour
 model, host, control/treated, readout (tumour volume for 852 animals,
-bioluminescence for 459) and the time axis's unit and origin.
+bioluminescence for 459) and the time axis's unit and origin. If a repository stops
+serving one of the 13 supplements (Europe PMC re-indexes records now and
+then), the export names it and writes the rest; run it again later to fill it.
 
 **What is checked and what is not.** `state = verified` means a person
 checked each sheet's subject count, time points and arm grouping.
