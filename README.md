@@ -211,6 +211,9 @@ Mice do not report their own data; spreadsheets, sometimes, do.
   spreadsheets and flat text; PDFs are read for legends only (693 tables from
   206 PDF/Word supplements held no per-subject series).
 - Open access only; attribution travels with the data. No human patient data.
+- Network: the tool talks only to Europe PMC (`www.ebi.ac.uk`). Search terms
+  and article IDs go out; open-access supplements and full text come back.
+  Nothing else of yours is sent, and nothing is kept anywhere but your clone.
 - Longitudinal per-subject readouts (tumour volume, body weight). Not
   dose-response: a concentration axis is not a time axis.
 - One rater, the author, measured everything; a second, independent rater is
