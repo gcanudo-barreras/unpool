@@ -1,0 +1,926 @@
+{
+ "study": "V25",
+ "query": "patient-derived xenograft",
+ "journal": "Nature Communications",
+ "budget": 50,
+ "tag": "v25",
+ "unit": "accepted sheet",
+ "candidate_sheets_total": 224,
+ "candidate_papers_total": 35,
+ "excluded_papers": {
+  "PMC13402817": [
+   "v2_sample.json"
+  ],
+  "PMC13503664": [
+   "v2_sample.json",
+   "example/worklist.csv",
+   "runs/worklist.csv"
+  ],
+  "PMC13503815": [
+   "v2_sample.json",
+   "v9_sample.json"
+  ],
+  "PMC13507113": [
+   "v2_sample.json"
+  ],
+  "PMC13522462": [
+   "v2_sample.json",
+   "v9_sample.json",
+   "example/worklist.csv",
+   "runs/worklist.csv"
+  ],
+  "PMC13534483": [
+   "v2_sample.json"
+  ],
+  "PMC13542117": [
+   "v2_sample.json"
+  ],
+  "PMC13547291": [
+   "v2_sample.json"
+  ],
+  "PMC13562587": [
+   "v2_sample.json"
+  ]
+ },
+ "exclusion_notes": [
+  "V8 (docs/VALIDATION.md): 3",
+  "v2_sample.json: 19",
+  "v9_sample.json: 10",
+  "v12_sample.json: 7",
+  "v14_sample.json: 10",
+  "runs/v10_verdicts.csv: 20",
+  "example/worklist.csv: 4",
+  "runs/worklist.csv: 4",
+  "contributed/gcanudo-barreras/v18.csv: 20",
+  "contributed/gcanudo-barreras/v24.csv: 6"
+ ],
+ "pile_sheets": 173,
+ "pile_papers": 26,
+ "pile": [
+  {
+   "pmcid": "PMC13545235",
+   "file": "41467_2026_76853_MOESM4_ESM.xlsx",
+   "sheet": "2.4_SenHvsSenL-gsea_senescence"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "Fig. 3"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "Fig. 5"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "Fig. 6"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "Fig. 7"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "Fig. S7"
+  },
+  {
+   "pmcid": "PMC13590603",
+   "file": "41467_2026_76864_MOESM12_ESM.xlsx",
+   "sheet": "FIG. S9"
+  },
+  {
+   "pmcid": "PMC13582972",
+   "file": "41467_2026_76385_MOESM14_ESM.xlsx",
+   "sheet": "SuppFig5A"
+  },
+  {
+   "pmcid": "PMC13582972",
+   "file": "41467_2026_76385_MOESM10_ESM.xlsx",
+   "sheet": "VIPER_TRactivity_PDXs"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.2"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.5"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.6"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.9"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.10"
+  },
+  {
+   "pmcid": "PMC13578219",
+   "file": "41467_2026_76647_MOESM4_ESM.xlsx",
+   "sheet": "Fig.S29"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Figure2"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Supplementary figure 2"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Figure 4"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Figure 6"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Supplementary figure 7"
+  },
+  {
+   "pmcid": "PMC13575198",
+   "file": "41467_2026_75872_MOESM9_ESM.xlsx",
+   "sheet": "Figure 8"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 3e"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 3h"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5c"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5e"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5f"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 6a"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Figure 7f"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Extended Data Fig.5a"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Extended Data Fig.9c"
+  },
+  {
+   "pmcid": "PMC13562552",
+   "file": "41467_2026_76209_MOESM4_ESM.xlsx",
+   "sheet": "Extended Data Fig.9e"
+  },
+  {
+   "pmcid": "PMC13530216",
+   "file": "41467_2026_76339_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 1g"
+  },
+  {
+   "pmcid": "PMC13530216",
+   "file": "41467_2026_76339_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 3e"
+  },
+  {
+   "pmcid": "PMC13530216",
+   "file": "41467_2026_76339_MOESM4_ESM.xlsx",
+   "sheet": "Fig 7a"
+  },
+  {
+   "pmcid": "PMC13530216",
+   "file": "41467_2026_76339_MOESM4_ESM.xlsx",
+   "sheet": "Fig 7e"
+  },
+  {
+   "pmcid": "PMC13493945",
+   "file": "41467_2026_76750_MOESM4_ESM.xlsx",
+   "sheet": "Figure 4"
+  },
+  {
+   "pmcid": "PMC13493945",
+   "file": "41467_2026_76750_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5"
+  },
+  {
+   "pmcid": "PMC13493945",
+   "file": "41467_2026_76750_MOESM4_ESM.xlsx",
+   "sheet": "Figure S5"
+  },
+  {
+   "pmcid": "PMC13493945",
+   "file": "41467_2026_76750_MOESM4_ESM.xlsx",
+   "sheet": "Figure S6"
+  },
+  {
+   "pmcid": "PMC13482096",
+   "file": "41467_2026_76180_MOESM4_ESM.xlsx",
+   "sheet": "Figure 3"
+  },
+  {
+   "pmcid": "PMC13482096",
+   "file": "41467_2026_76180_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.S1c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s1h"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.1b"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.1h"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.2e"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s3b"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s3h"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s5a"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s5b"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s6c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Figs6d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s7d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s8d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s10a"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s10c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s10d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.3b"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.3d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.3h"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.3j"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s11a"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s11b"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s12"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.4d"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.4h"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s14"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.5c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.6e"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s15"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.7c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.7g"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.7m"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s19c"
+  },
+  {
+   "pmcid": "PMC13562681",
+   "file": "41467_2026_76206_MOESM4_ESM.xlsx",
+   "sheet": "Fig.s19h"
+  },
+  {
+   "pmcid": "PMC13522500",
+   "file": "41467_2026_76152_MOESM14_ESM.xlsx",
+   "sheet": "Fig.3"
+  },
+  {
+   "pmcid": "PMC13522500",
+   "file": "41467_2026_76152_MOESM14_ESM.xlsx",
+   "sheet": "Fig.4"
+  },
+  {
+   "pmcid": "PMC13522500",
+   "file": "41467_2026_76152_MOESM14_ESM.xlsx",
+   "sheet": "Fig.S5"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 4A"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 4F"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 6E"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 7B"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 7C"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 7I"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 8C"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 9C"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 9G"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 10B"
+  },
+  {
+   "pmcid": "PMC13503689",
+   "file": "41467_2026_75741_MOESM4_ESM.xlsx",
+   "sheet": "Supplementary Fig. 13B"
+  },
+  {
+   "pmcid": "PMC13500480",
+   "file": "41467_2026_75824_MOESM6_ESM.xlsx",
+   "sheet": "Fig.1a"
+  },
+  {
+   "pmcid": "PMC13500480",
+   "file": "41467_2026_75824_MOESM6_ESM.xlsx",
+   "sheet": "SMFig.7c"
+  },
+  {
+   "pmcid": "PMC13500480",
+   "file": "41467_2026_75824_MOESM6_ESM.xlsx",
+   "sheet": "SMFig.7d"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "Figure 2"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "Figure 4"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "Figure 6 (Nov 2025)"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "Figure 7  (Nov 2025)"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "S2"
+  },
+  {
+   "pmcid": "PMC13490547",
+   "file": "41467_2026_75675_MOESM4_ESM.xlsx",
+   "sheet": "S13"
+  },
+  {
+   "pmcid": "PMC13486728",
+   "file": "41467_2026_75529_MOESM4_ESM.xlsx",
+   "sheet": "Human sample info"
+  },
+  {
+   "pmcid": "PMC13486728",
+   "file": "41467_2026_75529_MOESM6_ESM.xlsx",
+   "sheet": "GO term H3K27me3 loss in SCC"
+  },
+  {
+   "pmcid": "PMC13486728",
+   "file": "41467_2026_75529_MOESM10_ESM.xlsx",
+   "sheet": "Figure 2"
+  },
+  {
+   "pmcid": "PMC13486728",
+   "file": "41467_2026_75529_MOESM10_ESM.xlsx",
+   "sheet": "Figure 3"
+  },
+  {
+   "pmcid": "PMC13483867",
+   "file": "41467_2026_74593_MOESM10_ESM.xlsx",
+   "sheet": "Fig4e"
+  },
+  {
+   "pmcid": "PMC13473660",
+   "file": "41467_2026_75117_MOESM3_ESM.xlsx",
+   "sheet": "Supp. Data 15"
+  },
+  {
+   "pmcid": "PMC13473660",
+   "file": "41467_2026_75117_MOESM6_ESM.xlsx",
+   "sheet": "Figure 2"
+  },
+  {
+   "pmcid": "PMC13473660",
+   "file": "41467_2026_75117_MOESM6_ESM.xlsx",
+   "sheet": "Figure 3"
+  },
+  {
+   "pmcid": "PMC13473660",
+   "file": "41467_2026_75117_MOESM6_ESM.xlsx",
+   "sheet": "Supp. Fig 10"
+  },
+  {
+   "pmcid": "PMC13470355",
+   "file": "41467_2026_75031_MOESM6_ESM.xlsx",
+   "sheet": "Fig. 6"
+  },
+  {
+   "pmcid": "PMC13470355",
+   "file": "41467_2026_75031_MOESM6_ESM.xlsx",
+   "sheet": "Fig. 7"
+  },
+  {
+   "pmcid": "PMC13470355",
+   "file": "41467_2026_75031_MOESM6_ESM.xlsx",
+   "sheet": "Fig. 8"
+  },
+  {
+   "pmcid": "PMC13470355",
+   "file": "41467_2026_75031_MOESM6_ESM.xlsx",
+   "sheet": "Fig. S13"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure 1"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure 2"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure 3"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure 7"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S1 "
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S3"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S4"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S6"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S8"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S9"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S10"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Figure S11"
+  },
+  {
+   "pmcid": "PMC13469624",
+   "file": "41467_2026_75208_MOESM4_ESM.xlsx",
+   "sheet": "Sheet1"
+  },
+  {
+   "pmcid": "PMC13469601",
+   "file": "41467_2026_75132_MOESM7_ESM.xlsx",
+   "sheet": "Fig1"
+  },
+  {
+   "pmcid": "PMC13469601",
+   "file": "41467_2026_75132_MOESM7_ESM.xlsx",
+   "sheet": "Fig2"
+  },
+  {
+   "pmcid": "PMC13469601",
+   "file": "41467_2026_75132_MOESM7_ESM.xlsx",
+   "sheet": "Fig5"
+  },
+  {
+   "pmcid": "PMC13469601",
+   "file": "41467_2026_75132_MOESM7_ESM.xlsx",
+   "sheet": "sFig6"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig 1"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig 2"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig 4"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig 8"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig S8"
+  },
+  {
+   "pmcid": "PMC13462549",
+   "file": "41467_2026_75123_MOESM15_ESM.xlsx",
+   "sheet": "Fig S9"
+  },
+  {
+   "pmcid": "PMC13463030",
+   "file": "41467_2026_75155_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 2e"
+  },
+  {
+   "pmcid": "PMC13463030",
+   "file": "41467_2026_75155_MOESM4_ESM.xlsx",
+   "sheet": "Fig. 2i"
+  },
+  {
+   "pmcid": "PMC13463030",
+   "file": "41467_2026_75155_MOESM4_ESM.xlsx",
+   "sheet": "Fig. S2b"
+  },
+  {
+   "pmcid": "PMC13463030",
+   "file": "41467_2026_75155_MOESM4_ESM.xlsx",
+   "sheet": "Fig. S3a"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Figure 1"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Figure 2"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Figure 3"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Figure 5"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Figure 6"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Supplementary Fig. 3"
+  },
+  {
+   "pmcid": "PMC13463023",
+   "file": "41467_2026_75013_MOESM4_ESM.xlsx",
+   "sheet": "Supplementary Fig. 5"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 3B"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 4D"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 4E"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 4M"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 6P"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig 7G"
+  },
+  {
+   "pmcid": "PMC13457592",
+   "file": "41467_2026_75027_MOESM4_ESM.xlsx",
+   "sheet": "Fig S11B"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig.2"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig.3"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig.4"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig.5"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig.6"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig. S1"
+  },
+  {
+   "pmcid": "PMC13421458",
+   "file": "41467_2026_74691_MOESM4_ESM.xlsx",
+   "sheet": "Fig. S2"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.1C"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.1D"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.1H"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.3B"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.4A"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.4G"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.5I"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig.6K"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig. S1E"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig. S1H"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig. S1I"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig. S1J"
+  },
+  {
+   "pmcid": "PMC13500556",
+   "file": "41467_2026_74315_MOESM14_ESM.xlsx",
+   "sheet": "Fig. S1K"
+  }
+ ]
+}

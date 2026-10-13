@@ -1,0 +1,51 @@
+# CONTRIBUTED, AND THE FIRST PROOF THAT THE EXTENSION POINT IS REAL
+# =============================================================================
+# Built by a behavioural neuroscientist with no prior knowledge of this tool,
+# in under an hour, by copying `body_weight.toml` and changing three things.
+# On its first live run it surfaced a genuine per-animal rotarod dataset --
+# PMC13303913, an AAV9-amiR-SOD1 ALS gene-therapy paper, sheets `Figure 4A/4B`
+# titled "Rotarod" in-sheet, three arms, age-in-days covariate, declining
+# per-animal latency. A field this tool was never built for, first try.
+#
+# IT IS ALSO THE PROOF OF THE LIMIT. Of its 12 candidates, **9 carried no
+# header evidence at all** (75%, against 48% for `tumor_volume`) -- accepted
+# because they are a numeric grid on a monotonic ordinal axis, not because
+# anything matched "rotarod" or "latency". A new profile mostly rides the same
+# structural detector, tuned on tumour spreadsheets, with its blind spots
+# inherited unmeasured. It cannot tell a rotarod decline from any other falling
+# series in the same workbook.
+#
+# NO MEASURED RECALL OR PRECISION. None. The numbers quoted anywhere else in
+# this repository are `tumor_volume`'s and do not transfer.
+#
+# Kept as shipped by its author, including the response band, which that author
+# describes as a documented guess for a disease-progression model rather than a
+# measurement. Changing it here would erase the one thing it demonstrates: what
+# an outsider actually produces.
+
+name = "rotarod_latency"
+description = "per-animal rotarod latency, contributed example of a non-oncology profile"
+
+[columns]
+# `rat|rats` is this contributor's addition, and the reason the shipped
+# profiles now carry it too: the originals named the mouse and not the rat.
+subject = '^\s*(mouse|mice|rat|rats|animal|id|subject|sample|no\.?|#)'
+subject_strict = '^\s*(mouse|mice|rat|rats|animal|id|subject|sample|no\.?|#)'
+# `session|trial` belongs HERE and not in the tumour profile: behavioural cores
+# stage by trial number as often as by calendar day.
+covariate = '^\s*(day|days|time|timepoint|date|week|age|session|trial)'
+value = '(latency|rotarod|fall|rpm|duration|distance|time\s*on)'
+ordinal_suffix = '\bt[_\s]*\d+\b'
+
+[response]
+# A disease-progression model: latency FALLS as the animal declines. The band
+# is the contributor's stated guess, not a measurement.
+direction = "decrease"
+fold_lo = 0.0
+fold_hi = 0.8
+min_consistent = 0.6
+allow_fractional_axis = false
+
+[floors]
+min_subjects = 5
+min_points = 4

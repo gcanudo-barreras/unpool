@@ -1,0 +1,30 @@
+file,verdict,source_builder,note
+41467_2026_70001_MOESM6_ESM.xlsx,POS,build_atrcu_arms_v1.py,208 animals across 20 arms (multi-sheet xlsx)
+41591_2015_BFnm3954_MOESM10_ESM.xlsx,NEG,extract_pdxe_pct.py,"builder's own gate MIN_ANIMALS_PER_ARM=3 excludes 220 of ~223 arms as n=1; the 3 surviving arms max at n=3, still below this scanner's MIN_ANIMALS=5 -- no arm in the file ever reaches 5, so NEGATIVE for this scanner"
+LLC_sc_CCSB.txt,POS,build_control_corpus_v3.py,"20 control animals, LONG csv, header literally `ID,Time,Vol`"
+LM24LUC.txt,POS,"build_control_corpus_v3.py, build_ebos_arms_v1.py","LM2-4LUC 33 control animals, LONG tsv, header `ID Time Observation`"
+Source_DataYWOct_202025.xlsx,POS,build_rmspi3k_arms_v1.py,48 animals total 6/arm
+dryad_cfxpnvxnz_prosetta4t1.xlsx,POS,build_prosetta4t1_arms_v1.py,"_VERIFIED_N exact, 6/arm x 3 arms"
+dryad_pb7j7_ct26_figure2b.xls,NEG,none,"probe calibration curve (mmHg vs intensity), no per-animal ID at all -- named negative in build_zengct26_arms_v1.py docstring"
+dryad_pb7j7_ct26_figure2c.xls,NEG,none,"in-vitro Mean/SD/N trypan-blue block, no time series -- named negative in build_zengct26_arms_v1.py docstring"
+dryad_pb7j7_ct26_figure4a.xls,POS,build_zengct26_arms_v1.py,"THE accepted CT-26 arm: 6 Saline + 6 Cisplatin, days 9/12/15/18/21, two blocks stacked in one sheet separated by a blank row, day axis resets per block"
+dryad_pb7j7_ct26_figure4b.xls,POS*,none,"structurally IDENTICAL block layout to figure4a (6+6 x 5 days); rejected by the builder ONLY on prose grounds -- it is phosphorescence, not volume (arm mislabelled `Siline`). The builder's own docstring says no check on the values could have caught this, so a structural scanner is EXPECTED to flag it; that is a precision cost this row already accounts for, not a recall failure."
+dryad_pb7j7_ct26_figure4c.xls,NEG,none,"same block/transpose shape as figure4a but only 3 animal columns per arm -- correctly below MIN_ANIMALS=5"
+dryad_pb7j7_ct26_figure4d.xls,NEG,none,"same, 3 animals per arm"
+dryad_pb7j7_ct26_figures1.xls,POS*,none,"same block-stacked shape, 3 stacked arms (Saline/Cisplatin/Anti-VEGF), 6 animals/arm; rejected by the builder only for being phosphorescence, same reasoning as figure4b"
+ebos_data_breast.xlsx,POS,"build_ebos_arms_v1.py, build_control_corpus_v3.py",50 control animals (LUC15 Vehicle arm)
+jci178446_nr2f1_sourcedata.xlsx,POS,build_nr2f1melanoma_arms_v1.py,13-16 animals/arm; also reported block-stacked (arm label per block) -- check after the generic block-run fix
+jci197192_krastopo2_sourcedata.xlsx,POS,build_krastopo2_arms_v1.py,builder-stated per-arm counts
+jmc5c01298_pkmyt1_sourcedata.xlsx,POS,build_pkmyt1_arms_v1.py,"24 and 23 animals across two figures (also carries the Zhu-JMC01298 MDA-MB-231/HCC1569 cross-source pair)"
+ncomms64682_taztead_sourcedata.xlsx,POS,build_tazteadA375_arms_v1.py,"6 (BRAFi+MEKi), 7 (Triple Combo)"
+ncomms67865_blu222_sourcedata.xlsx,POS,build_blu222_arms_v1.py,8 animals
+ncomms71144_aldh1a1_sourcedata.xlsx,POS,build_aldh1a1_arms_v1.py,real per-animal block
+ncomms72062_elmo2_sourcedata.xlsx,POS,build_elmo2_arms_v1.py,real per-animal block
+pone0262378_mcf7.csv,POS,build_constellation_arms_v1.py,8 animals
+pone0288380_4t1luc2.xlsx,NEG,build_chiang4t1_arms_v1.py,"4T1-Luc2, 7 control animals per known_sources.csv, BUT the sheet layout is 3 day-blocks tiled SIDE BY SIDE per row (day 7 / day 11 / day 14 as header text over id,length,width,volume,body_weight column groups), repeated vertically for the next 3 days -- neither LONG nor WIDE nor a single block/transpose split; the day value is embedded in header TEXT rather than a data cell, not recoverable by this scanner. KNOWN REMAINING FALSE POSITIVE: judge_any still reports a spurious HIT on this file's transpose, because the animal-ID column (1,2,...,8) is itself a perfectly regular ascending integer run and is indistinguishable, on structure alone, from a genuine week-index day header -- reported and named, not silently passed (docs/PROTOCOL.md, rule 11)."
+pone0324141_pdxnet_625472_s3.xlsx,POS,build_pdxnet5lab_arms_v1.py,"37 control animals across 5 sites (D59 table); header uses day-INDEX suffix columns `%dVol t_0..t_4`, not raw day numbers; a second, non-longitudinal 'Tumor growth measures' summary block sits ~17 rows below and must not be mistaken for a second day-header row"
+pone0324141_pdxnet_bl0293_s2.xlsx,POS,build_pdxnet5lab_arms_v1.py,"45 control animals across 5 sites (D59 table); identical shape to the 625472 workbook except this file's ID-adjacent column is named `Lab` where 625472's is `Site` -- detector must not key off that literal header string"
+pone0351545_thsd7b_gastric.xlsx,POS,build_thsd7b_arms_v1.py,"real per-animal ""Volume of tumor"" table"
+rsob_240210_group_means.txt,NEG,build_aggregate_arms_v1.py,"NEGATIVE CONTROL -- group means only (mean_vol_mm3, sd, n columns per group/day), no animal identifier at all; MUST stay a miss"
+zenodo3593919_mdamb231_dtomato.txt,POS,build_mdamb231dtomato_arms_v1.py,8 animals / 64 observations
+PMC12611756_41586_2025_9655_MOESM3_ESM.xlsx,NEG,,"THE AGG CONTROL. Sheet `2a`: Days | Mean | SEM per arm, tumour volumes 112 -> 1573 mm3 over days 13-19, written by the paper's own authors. Verified that AGG is what rejects it: with AGG neutered the scanner ACCEPTS it, which the previous control could not show."

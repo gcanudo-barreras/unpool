@@ -1,0 +1,8 @@
+phase,minutes,note
+mine,7.2,exit=0; unpool mine budget 50 workers 4 (agent wall-clock)
+freeze,0.0,exclude known verdicts and write pile
+screen,17.0,agent adjudication of 173 sheets (sheet + legend + methods; L4 = read past first block)
+extract,6.5,unpool extract summary on screened-TRUE sheets + arm assignment from legends
+desk_build,1.4,exit=0; unpool desk build (agent wall-clock)
+rater_A_desk,,self-reported total 90 person-minutes over several sessions; per-session times not recorded; 95 items answered; end = answers file last written (local time)
+extraction_check,79.2,"rater session, 50 row(s), desk check"

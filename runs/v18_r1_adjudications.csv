@@ -1,0 +1,21 @@
+pmcid,sheet,verdict,note
+PMC10965444,Fig. 6,UNRESOLVED,"Whole-figure sheet: 5 series x 4 timepoints fits either the 5 mice of one arm or the 5 arms of panel f's day-21/31/41/51 bioluminescence, and the bundle does not separate them"
+PMC11078746,Fig4a,UNRESOLVED,"Conflicting sheet-internal evidence: aggregate mean/SEM/n= vocabulary in the header region and no subject-id token, against 49 numeric series spanning only 4 timepoints"
+PMC11393413,HCT15NTC vs TKO,FALSE,Scanner flagged a transcriptomics signature and only a value header on a knockout-versus-control contrast of 32 series
+PMC11452177,Proteins,FALSE,398 counted series over 4 columns cannot be animals: the article's in vivo work is a C57BL/6 caliper study and claims no cohort remotely that size
+PMC11839401,Tumor size,UNRESOLVED,"No legend located, and the sheet carries both subject-id header tokens and aggregate mean/SEM/n= header vocabulary across 47 series, which does not settle per-animal versus per-arm"
+PMC12501270,Figure 6 o,FALSE,"Panel sentence for o is quantification of yH2AX foci in nuclei of cisplatin-treated cells, and the 89 counted series match the stated ~100 nuclei per condition"
+PMC12749580,Supplementary Data 7,UNRESOLVED,"No legend located, no header tokens at all, and 5 series x 4 timepoints matches neither the stated n = 3 per group nor any other described layout"
+PMC12779571,Fig. 4g,TRUE,"Panel-specific legend says g is PDX tumour growth in NSG mice, and the sheet carries subject-id/time/value headers with 39 series across 18 timepoints, far too many for arm means"
+PMC12909920,Sheet1,UNRESOLVED,"The only legend located describes an entirely in vitro figure (CCK8 dose ladder and time course), the sheet name carries no figure reference and no header tokens, so the tie to the in vivo experiment is unestablished"
+PMC13006418,Supplementary table 6,FALSE,340 counted series is orders of magnitude beyond the article's stated n = 5/group animal cohorts
+PMC13366507,Sheet1,FALSE,"The located legend is a 300-cell-line viability dose-response screen (IC50/AUC/Emax), and 68 series over 5 columns is inconsistent with the article's 3-10 mice per group"
+PMC13389217,FigureS11A,UNRESOLVED,"Supplementary panel legend not retrievable, no header tokens, and 14 series x 4 timepoints is compatible with per-mouse volumes or with several other described readouts"
+PMC13470249,Supplementary Fig. 18,FALSE,"Scanner detected a survival signature with only a time header, i.e. Kaplan-Meier data rather than per-animal volume series"
+PMC13481249,STable5. Patient information,UNRESOLVED,"The retrieved legend covers a figure, not this supplementary table, and a time-only header over 4 series with all 4 below the floors settles nothing"
+PMC5978322,Table EV1,FALSE,"The legend's 32 thermally stable proteins and 37-65C temperature ladder match the sheet's 32 series x 10 points exactly: a thermal proteomics matrix, not a calendar"
+PMC7617236,Ext. Data Fig. 11g,UNRESOLVED,No legend located for panel 11g; a time-only header with 37 series over 9 points fits the article's growth curves and its bioluminescence time courses equally
+PMC8983046,Sheet1,FALSE,"The located legend is Figure 1 source data, whose panels are all in vitro expression and fibre measurements, and the header region carries aggregate mean/SEM vocabulary"
+PMC9498964,ECAR (oligo rotenone) (Fig 4F) ,FALSE,"Panel sentence for F is OCR/ECAR Seahorse measurements of cultured cells under oligomycin, an in vitro kinetic run"
+PMC9767871,Ext.Fig. 6f,FALSE,"Panel sentence for f is the percentage of F4/80+ TAMs by flow cytometry, a single-timepoint endpoint, not a volume time course"
+PMC9970875,Fig 2,TRUE,"Panel b of the named figure is volumetric growth curves of 33 SW1-tumour mice, and the sheet holds 43 numeric series across 12 timepoints, which no four-arm mean layout could produce"

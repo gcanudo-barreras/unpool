@@ -1,0 +1,27 @@
+file,doi,route,sha256,note
+41467_2026_70001_MOESM6_ESM.xlsx,10.1038/s41467-026-70001-5,epmc,cc9ff647450b7749c6ff59eeee4c0b30538617667f1a1144d95b446f429d1f8c,
+41591_2015_BFnm3954_MOESM10_ESM.xlsx,10.1038/nm.3954,not_oa,15ae7d2366ab4b0a989474bae03d2ab12a123056395e9d882fcf48602c6ab94d,Nature Medicine 2015; subscription. The shipping scanner would get not_open_access on it. Out of the gate by the tool's own OA-only invariant.
+LLC_sc_CCSB.txt,10.5281/zenodo.3572401,zenodo:3572401,66f30842f245550cee17ccb35026039097d1783e447b7565b427ba569272d492,
+LM24LUC.txt,10.5281/zenodo.3574531,zenodo:3574531,f6641ce7319b7fb99d6d41bbe1f2eff0cc17fe8385030178234c34e9bda5df27,
+Source_DataYWOct_202025.xlsx,10.1038/s41467-025-66632-9,epmc,306949b5806a30f255a1393e2abc8d5502c14ca0eefa2aae5e92e3192a2de8c6,
+dryad_cfxpnvxnz_prosetta4t1.xlsx,10.5061/dryad.cfxpnvxnz,manual:dryad,e3d3b7d6af00364c0f94ca9058f559c5ed003513bcd2dd664ed60cb7f9cf2b38,
+dryad_pb7j7_ct26_figure2b.xls,10.5061/dryad.pb7j7,manual:dryad,5f4023e01ef6c2ae5fc5a87b5499cd02497f030c50a53386a697ab9da9334969,Dryad answers 401 to an unauthenticated download of BOTH the whole-dataset archive and the per-file stash:download link (metadata stays public). Fetch by hand once; the sha256 verifies it.
+dryad_pb7j7_ct26_figure2c.xls,10.5061/dryad.pb7j7,manual:dryad,1e14c8d251d747a69f803e48507e501664607d65dd02d5af81564aa4e11fa538,
+dryad_pb7j7_ct26_figure4a.xls,10.5061/dryad.pb7j7,manual:dryad,8d771bae8d0d5f6177055d0ceed65ce962cc97fe43a39257035f7661a8bdc983,
+dryad_pb7j7_ct26_figure4b.xls,10.5061/dryad.pb7j7,manual:dryad,ed1e1511126668bd9964a8496d5a14a69344eda7b28400d31d1912b67eaf04bf,
+dryad_pb7j7_ct26_figure4c.xls,10.5061/dryad.pb7j7,manual:dryad,69428cdcfb1570bddcb355cc383b5aa7c0e40d7f7135162b83391264e1a36754,
+dryad_pb7j7_ct26_figure4d.xls,10.5061/dryad.pb7j7,manual:dryad,126b45cf8b5f91dffb8c959b99314847137a76b3f3d18d9e06f1d05f10e97095,
+dryad_pb7j7_ct26_figures1.xls,10.5061/dryad.pb7j7,manual:dryad,133e23c5a6047a52b5812f48422ea759e7eb149f720da9cd47bc8f404fca9c03,
+PMC12611756_41586_2025_9655_MOESM3_ESM.xlsx,10.1038/s41586-025-09655-y,epmc,59e1aca0d0b62ec35c23aa5e194cc2642d5aa55888fb10f9b3238a22b53a40cd,"V11 NEGATIVE CONTROL. Sheet `2a` is longitudinal tumour volume as group Mean/SEM per arm over days 13/15/17/19. Rejected BY AGG specifically, verified by neutering AGG (which accepts it). The previous control never reached AGG at all."
+ebos_data_breast.xlsx,10.5281/zenodo.10607753,zenodo:10607753,7a62e35bd0b588208962b4b959de9cd521a491bf1b11f4c54cabaa4b9c1fa070,DOI verified (established by hash in Phase 1). Present in ground_truth since Phase 1 and absent from this manifest until now.
+jci178446_nr2f1_sourcedata.xlsx,10.1172/JCI178446,epmc,c06a65ea7cf05ea6c6ac94598894ad1563bafa2508bfcf75559fc92eeb075fcf,DOI verified (JCI article number). Present in ground_truth since Phase 1 and absent from this manifest until now.
+jci197192_krastopo2_sourcedata.xlsx,10.1172/JCI197192,epmc,f51bfb9ef1e13d39e0ac6f73a179d7eb17846a9b244ac0623abfd366e95a7495,DOI verified (JCI article number). Present in ground_truth since Phase 1 and absent from this manifest until now.
+ncomms64682_taztead_sourcedata.xlsx,10.1038/s41467-025-64682-7,epmc,46f8bdba96dd0d3b0719f7d6a89d56f11169688e11270fbf96b13c694367e123,DOI verified (article number s41467-025-64682). Present in ground_truth since Phase 1 and absent from this manifest until now.
+ncomms67865_blu222_sourcedata.xlsx,10.1038/s41467-025-67865-4,epmc,2d45bd2326edf9949aa177e78bcc3341ced5d32cb87700b687b1ab806a1f3218,DOI verified (article number s41467-025-67865). Present in ground_truth since Phase 1 and absent from this manifest until now.
+ncomms71144_aldh1a1_sourcedata.xlsx,10.1038/s41467-026-71144-1,epmc,9bc6991d2153a16fa27a3acf26fef59a8c9ffbd18ec2d100cfcb374e1921fd63,DOI verified (article number s41467-026-71144). Present in ground_truth since Phase 1 and absent from this manifest until now.
+ncomms72062_elmo2_sourcedata.xlsx,10.1038/s41467-026-72062-y,epmc,4f66983216368be9a964399451af0be8e3cfa4c91d3fb6bcacc25366345644d3,DOI verified (article number s41467-026-72062). Present in ground_truth since Phase 1 and absent from this manifest until now.
+pone0288380_4t1luc2.xlsx,10.1371/journal.pone.0288380,epmc,58bbdd6dd8d346231d24bd64ea053582bf9683265ee039ac9a369437b696ca61,DOI verified (PLOS ONE article id). Present in ground_truth since Phase 1 and absent from this manifest until now.
+pone0324141_pdxnet_625472_s3.xlsx,10.1371/journal.pone.0324141,epmc,f76e6da48f58b262c113d17cd4331a40e59efdc15647f6fa02899c75dab3b8c3,DOI verified (PLOS ONE article id). Present in ground_truth since Phase 1 and absent from this manifest until now.
+pone0324141_pdxnet_bl0293_s2.xlsx,10.1371/journal.pone.0324141,epmc,8dd622a1e86928bc911bac24a1d5e486898953d66cc38e6f013035f388cceccc,DOI verified (PLOS ONE article id). Present in ground_truth since Phase 1 and absent from this manifest until now.
+pone0351545_thsd7b_gastric.xlsx,10.1371/journal.pone.0351545,epmc,285c12fc883ce738450f106d852b0dd82c7ed111a3484a35a370d4c05a400915,DOI verified (PLOS ONE article id). Present in ground_truth since Phase 1 and absent from this manifest until now.
+zenodo3593919_mdamb231_dtomato.txt,10.5281/zenodo.3593919,zenodo:3593919,9983b7338086e4cc46727ab55182ec5992d6cde445104bc6f7a0536bec5cfdcd,DOI verified (Zenodo deposit id). Present in ground_truth since Phase 1 and absent from this manifest until now.

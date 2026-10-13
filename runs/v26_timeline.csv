@@ -1,0 +1,5 @@
+phase,minutes,note
+mine,13.2,exit=0; unpool mine MC38 OR CT26 Nature Communications budget 50 workers 4 (agent wall-clock)
+freeze,0.0,exclude known verdicts and write pile: 267 sheets in 28 papers
+screen_extract,12.8,"6 fresh subagents (Claude Opus 5.5) in parallel, batches of 44-47 sheets; 267 sheets, 110 TRUE extracted; end = start + longest batch (767 s); merged and sealed d2024fb at 13:57Z; extract.py blob 2fe85a98872f522ed18fceea303a4c3d0d3bcb5a"
+extraction_check,713.1,"rater session, 15 row(s), desk check"

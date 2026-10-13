@@ -1,0 +1,27 @@
+pmcid,sheet,verdict,readout,rung,note
+PMC11393413,DLD1 untr. vs oxa,FALSE,none (RNA-seq),sheet,"differential expression, ENSG ids x replicate columns"
+PMC11393413,DLD1 NTC vs TKO,FALSE,none (RNA-seq),sheet,"differential expression, ENSG ids x replicate columns"
+PMC11393413,DLD1 NTC oxa vs TKO oxa,FALSE,none (RNA-seq),sheet,"differential expression, ENSG ids x replicate columns"
+PMC11393413,HCT15 NTC oxa vs TKO oxa,FALSE,none (RNA-seq),sheet,"differential expression, ENSG ids x replicate columns"
+PMC11393413,Sup. peptides in NTC and TKO cl,FALSE,none (proteomics),sheet,peptide abundances NTC vs TKO clones
+PMC12501270,Figure 2a,FALSE,none (in vitro),sheet,Pt accumulation in cell lines at 0/3/6/24 h
+PMC12501270,Figure 2c,FALSE,none (in vitro),sheet,gammaH2AX foci per nucleus at 0/3/6/24 h
+PMC12501270,Figure 2f,FALSE,none (in vitro),sheet,gammaH2AX foci per nucleus
+PMC12501270,Figure 4i,FALSE,none (in vitro),sheet,"oxaliplatin concentration series, % survival"
+PMC12501270,Figure 6 p,FALSE,none (in vitro),sheet,"gammaH2AX foci per nucleus, replicates R1-R3"
+PMC13006418,Supplementary table 5,FALSE,none (RNA-seq),sheet,gene symbol x sample expression matrix
+PMC13389217,Figure3J,FALSE,none (expression),sheet,gene expression values by ARID1A high/low
+PMC13470249,Fig. 2f,FALSE,Ki67 (histology),sheet,"Ki67+ % at 7 post-operative time points; histology, not a tumour-size readout, and not the same animal over time"
+PMC13470249,Fig. 2k,FALSE,none (in vitro),sheet,cumulative DOX release from nanofibers over days
+PMC13470249,Fig. 2l,FALSE,none (in vitro),sheet,cumulative BLZ945 release over days
+PMC13470249,Fig. 2m,FALSE,none (in vitro),sheet,cumulative DOX and BLZ945 release
+PMC13470249,Fig. 4a,FALSE,astrocytes/microglia %,sheet+legend,"GFAP+/Iba1+ % of total cells at 1 d-4 wk, sham vs blank CNF; legend: n=5 mice, histology"
+PMC13470249,Fig. 6e,FALSE,T-cell % (flow),sheet,"Tcm/Tem in spleen per group, single time"
+PMC13470249,Supplementary Fig. 5,FALSE,none (in vitro),sheet,solubility / release over hours
+PMC13470249,Supplementary Fig. 12,FALSE,none (in vitro),sheet,M-CSF concentration over 0-24 h
+PMC13470249,Supplementary Fig. 17,FALSE,bioluminescence (brain),sheet+methods,"brain BLI per group at days 0/9/18 only: three time points, under the four the question requires, and no subject identity across rows"
+PMC13470249,Supplementary Fig. 30,FALSE,T-cell % (flow),sheet,"CD4+/CD8+ % of total per group, single time"
+PMC5978322,Table EV3,FALSE,none (proteomics),sheet,"thermal proteome profiling, Delta_Tm per protein"
+PMC9498964,OCR (FCCP rotenone) (Fig 4E),FALSE,none (in vitro),sheet,Seahorse OCR over minutes
+PMC9498964,OCR (oligo rotenone) (Fig 4F),FALSE,none (in vitro),sheet,Seahorse OCR over minutes
+PMC9498964,S5_Data. Tumors (Fig 1),TRUE,tumour volume,sheet,"'Tumor Volume' block below qPCR and tumour-weight panels: Day 7/11/14/18/21/25/28, per-mouse columns per arm (negFBXO5, sgc14orf2, ...)"

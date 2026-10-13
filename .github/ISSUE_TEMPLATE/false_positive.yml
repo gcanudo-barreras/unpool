@@ -1,0 +1,21 @@
+name: False positive
+description: The scanner accepted a sheet that is not per-subject longitudinal data
+labels: ["false-positive", "precision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These are the scarce ones. The precision figure is made of them.
+  - type: input
+    attributes: {label: DOI, placeholder: "10.1038/s41467-..."}
+    validations: {required: true}
+  - type: input
+    attributes: {label: File and sheet, placeholder: "41467_..._MOESM4_ESM.xlsx :: Fig. 3"}
+    validations: {required: true}
+  - type: textarea
+    attributes:
+      label: What the sheet actually contains
+      placeholder: "Differential-expression table; gene rows counted as animals."
+    validations: {required: true}
+  - type: input
+    attributes: {label: What the scanner reported, placeholder: "wide-T, n=350, fold=17.1, hdr=NONE"}

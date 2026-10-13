@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its measurements, please cite it as below."
+title: "unpool: recover individual-level data from publications that report only the pooled summary"
+type: software
+authors:
+  - family-names: Canudo-Barreras
+    given-names: Guillermo
+    affiliation: Independent researcher
+    orcid: "https://orcid.org/0000-0002-1949-9185"
+version: 0.1.0
+date-released: 2026-10-13
+license: Apache-2.0
+repository-code: "https://github.com/gcanudo-barreras/unpool"
+abstract: >-
+  Agentic workflow that finds per-animal longitudinal series (tumour volume,
+  bioluminescence, body weight) in the open-access supplementary spreadsheets
+  of preclinical papers whose figures report only group means. A scanner
+  proposes sheets on structure, an agent reads each against its figure legend
+  and cuts it by treatment arm, a person verifies, and one command exports the
+  campaign as a per-animal CSV with provenance and licence. Every performance
+  figure was measured in a pre-registered study.
+keywords:
+  - individual participant data
+  - preclinical
+  - tumour growth
+  - supplementary material
+  - Europe PMC
+  - data reuse

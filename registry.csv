@@ -1,0 +1,112 @@
+level,pmcid,doi,journal,year,licence,file,sheet,verified_n,scanner_n,scanner_pts,record,note
+built,,10.5061/dryad.cfxpnvxnz,,,not indexed by Europe PMC,dryad_cfxpnvxnz_prosetta4t1.xlsx,,,,,fixtures/ground_truth.csv (build_prosetta4t1_arms_v1.py),
+built,,10.5061/dryad.pb7j7,,,not indexed by Europe PMC,dryad_pb7j7_ct26_figure4a.xls,,,,,fixtures/ground_truth.csv (build_zengct26_arms_v1.py),
+built,,10.5281/zenodo.10607753,,,not indexed by Europe PMC,ebos_data_breast.xlsx,,,,,"fixtures/ground_truth.csv (build_ebos_arms_v1.py, build_control_corpus_v3.py)",
+built,,10.5281/zenodo.3572401,,,not indexed by Europe PMC,LLC_sc_CCSB.txt,,,,,fixtures/ground_truth.csv (build_control_corpus_v3.py),
+built,,10.5281/zenodo.3574531,,,not indexed by Europe PMC,LM24LUC.txt,,,,,"fixtures/ground_truth.csv (build_control_corpus_v3.py, build_ebos_arms_v1.py)",
+built,,10.5281/zenodo.3593919,,,not indexed by Europe PMC,zenodo3593919_mdamb231_dtomato.txt,,,,,fixtures/ground_truth.csv (build_mdamb231dtomato_arms_v1.py),
+built,PMC12176186,10.1371/journal.pone.0324141,PloS one,2025,cc by,pone0324141_pdxnet_625472_s3.xlsx,,,,,fixtures/ground_truth.csv (build_pdxnet5lab_arms_v1.py),
+built,PMC12176186,10.1371/journal.pone.0324141,PloS one,2025,cc by,pone0324141_pdxnet_bl0293_s2.xlsx,,,,,fixtures/ground_truth.csv (build_pdxnet5lab_arms_v1.py),
+built,PMC12435839,10.1172/JCI178446,The Journal of clinical investigation,2025,cc by,jci178446_nr2f1_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_nr2f1melanoma_arms_v1.py),
+built,PMC12589586,10.1038/s41467-025-64682-7,Nature communications,2025,cc by,ncomms64682_taztead_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_tazteadA375_arms_v1.py),
+built,PMC12770561,10.1038/s41467-025-66632-9,Nature communications,2025,cc by,Source_DataYWOct_202025.xlsx,,,,,fixtures/ground_truth.csv (build_rmspi3k_arms_v1.py),
+built,PMC12828054,10.1038/s41467-025-67865-4,Nature communications,2026,cc by-nc-nd,ncomms67865_blu222_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_blu222_arms_v1.py),
+built,PMC12904700,10.1172/JCI197192,The Journal of clinical investigation,2026,cc by,jci197192_krastopo2_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_krastopo2_arms_v1.py),
+built,PMC13043670,10.1038/s41467-026-70001-5,Nature communications,2026,cc by-nc-nd,41467_2026_70001_MOESM6_ESM.xlsx,,,,,fixtures/ground_truth.csv (build_atrcu_arms_v1.py),
+built,PMC13187447,10.1038/s41467-026-71144-1,Nature communications,2026,cc by-nc-nd,ncomms71144_aldh1a1_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_aldh1a1_arms_v1.py),
+built,PMC13262811,10.1371/journal.pone.0351545,PloS one,2026,cc by,pone0351545_thsd7b_gastric.xlsx,,,,,fixtures/ground_truth.csv (build_thsd7b_arms_v1.py),
+built,PMC13276239,10.1038/s41467-026-72062-y,Nature communications,2026,cc by-nc-nd,ncomms72062_elmo2_sourcedata.xlsx,,,,,fixtures/ground_truth.csv (build_elmo2_arms_v1.py),
+built,PMC13534483,10.1038/s41467-026-76293-x,Nature communications,2026,cc by-nc-nd,41467_2026_76293_MOESM6_ESM.xlsx,Supplementary Fig. 8b.,41,,,example/build_mdamb231_crispra_v1.py,
+verified,PMC10965444,10.1038/s43018-023-00710-z,Nature cancer,2024,cc by,43018_2023_710_MOESM11_ESM.xlsx,Fig. 6,,5,4,contributed/gcanudo-barreras/v18.csv,Son series de BLI
+verified,PMC11078746,10.1038/s41586-024-07350-y,Nature,2024,cc by,41586_2024_7350_MOESM4_ESM.xlsx,Fig4a,,49,4,contributed/gcanudo-barreras/v18.csv,"Es ser longitudinal, incluye también en la misma hoja pesos tumorales como porcentaje de cambio"
+verified,PMC11560846,10.1038/s41586-024-07943-7,Nature,2024,cc by-nc-nd,41586_2024_7943_MOESM3_ESM.xlsx,Fig 3,,322,4,runs/v10_verdicts.csv,"Animal ID | D0..D13 per-animal volumes, BALB/c nude n=18"
+verified,PMC11839401,10.1038/s41586-024-07948-2,Nature,2025,cc by,41586_2024_7948_MOESM4_ESM.xlsx,Tumor size,,47,6,contributed/gcanudo-barreras/v18.csv,
+verified,PMC12075843,10.1038/s42003-025-08146-0,Communications biology,2025,cc by,42003_2025_8146_MOESM3_ESM.xlsx,Fig. 1h,,10,18,runs/v10_verdicts.csv,"per-animal tumour burden by week, TAT-CRE vs AD-CRE arms"
+verified,PMC12589595,10.1038/s42003-025-09050-3,Communications biology,2025,cc by,42003_2025_9050_MOESM5_ESM.xlsx,Fig. 8C,,28,5,runs/v10_verdicts.csv,"4T1, mice 1..6, Day 0/4/7/11/14/18/21 volumes"
+verified,PMC12779571,10.1038/s41586-025-09754-w,Nature,2026,cc by,41586_2025_9754_MOESM6_ESM.xlsx,Fig. 4g,,39,18,contributed/gcanudo-barreras/v18.csv,Son series longitudinales de volumen tumoral por animal
+verified,PMC12909920,10.1038/s42003-026-09538-6,Communications biology,2026,cc by-nc-nd,42003_2026_9538_MOESM3_ESM.xlsx,Sheet1,,13,6,contributed/gcanudo-barreras/v18.csv,Hay series de crecimiento en la sheet
+verified,PMC13179327,10.1038/s42003-026-10022-4,Communications biology,2026,cc by-nc-nd,42003_2026_10022_MOESM3_ESM.xlsx,Fig. 2A,,43,6,runs/v10_verdicts.csv,"Days 0/9/13/16, per-animal tumour volumes, Aged RAGE+/+ arms"
+verified,PMC13372664,10.1038/s41586-026-10613-5,Nature,2026,cc by-nc-nd,41586_2026_10613_MOESM4_ESM.xlsx,Source data_Figure-3f-CDX,,8,7,runs/v10_verdicts.csv,"Day | per-animal volumes (mm3), Vehicle vs dHuR-2 arms"
+verified,PMC13396614,10.1038/s41467-026-73806-6,Nature communications,2026,cc by,41467_2026_73806_MOESM4_ESM.xlsx,Supplementary Figure 27a,,40,10,runs/v10_verdicts.csv,"Days 1/3/... per-animal volumes, HepG2 vehicle arms"
+verified,PMC13421458,10.1038/s41467-026-74691-9,Nature communications,2026,cc by,41467_2026_74691_MOESM4_ESM.xlsx,Fig. S2,,25,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13421458,10.1038/s41467-026-74691-9,Nature communications,2026,cc by,41467_2026_74691_MOESM4_ESM.xlsx,Fig.2,,9,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13421458,10.1038/s41467-026-74691-9,Nature communications,2026,cc by,41467_2026_74691_MOESM4_ESM.xlsx,Fig.4,,8,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13421458,10.1038/s41467-026-74691-9,Nature communications,2026,cc by,41467_2026_74691_MOESM4_ESM.xlsx,Fig.6,,41,15,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13457592,10.1038/s41467-026-75027-3,Nature communications,2026,cc by-nc-nd,41467_2026_75027_MOESM4_ESM.xlsx,Fig 4E,,9,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13457592,10.1038/s41467-026-75027-3,Nature communications,2026,cc by-nc-nd,41467_2026_75027_MOESM4_ESM.xlsx,Fig 4M,,13,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13457592,10.1038/s41467-026-75027-3,Nature communications,2026,cc by-nc-nd,41467_2026_75027_MOESM4_ESM.xlsx,Fig 7G,,4,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13457592,10.1038/s41467-026-75027-3,Nature communications,2026,cc by-nc-nd,41467_2026_75027_MOESM4_ESM.xlsx,Fig S11B,,10,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13462549,10.1038/s41467-026-75123-4,Nature communications,2026,cc by,41467_2026_75123_MOESM15_ESM.xlsx,Fig 8,,14,5,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13463023,10.1038/s41467-026-75013-9,Nature communications,2026,cc by,41467_2026_75013_MOESM4_ESM.xlsx,Figure 2,,12,8,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13463023,10.1038/s41467-026-75013-9,Nature communications,2026,cc by,41467_2026_75013_MOESM4_ESM.xlsx,Supplementary Fig. 3,,12,12,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13463030,10.1038/s41467-026-75155-w,Nature communications,2026,cc by-nc-nd,41467_2026_75155_MOESM4_ESM.xlsx,Fig. S3a,,20,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469601,10.1038/s41467-026-75132-3,Nature communications,2026,cc by-nc-nd,41467_2026_75132_MOESM7_ESM.xlsx,Fig2,,18,11,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469601,10.1038/s41467-026-75132-3,Nature communications,2026,cc by-nc-nd,41467_2026_75132_MOESM7_ESM.xlsx,Fig5,,18,8,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469601,10.1038/s41467-026-75132-3,Nature communications,2026,cc by-nc-nd,41467_2026_75132_MOESM7_ESM.xlsx,sFig6,,19,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure 2,,26,9,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure 3,,14,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure 7,,26,9,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure S1,,25,9,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure S11,,20,8,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure S3,,25,9,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure S4,,13,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13469624,10.1038/s41467-026-75208-0,Nature communications,2026,cc by-nc-nd,41467_2026_75208_MOESM4_ESM.xlsx,Figure S6,,42,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13470355,10.1038/s41467-026-75031-7,Nature communications,2026,cc by-nc-nd,41467_2026_75031_MOESM6_ESM.xlsx,Fig. 6,,24,8,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13470355,10.1038/s41467-026-75031-7,Nature communications,2026,cc by-nc-nd,41467_2026_75031_MOESM6_ESM.xlsx,Fig. 8,,24,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13470355,10.1038/s41467-026-75031-7,Nature communications,2026,cc by-nc-nd,41467_2026_75031_MOESM6_ESM.xlsx,Fig. S13,,20,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13473660,10.1038/s41467-026-75117-2,Nature communications,2026,cc by,41467_2026_75117_MOESM6_ESM.xlsx,Figure 2,,28,11,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13473660,10.1038/s41467-026-75117-2,Nature communications,2026,cc by,41467_2026_75117_MOESM6_ESM.xlsx,Figure 3,,32,11,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13482096,10.1038/s41467-026-76180-5,Nature communications,2026,cc by,41467_2026_76180_MOESM4_ESM.xlsx,Figure 5,,20,11,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13490386,10.1038/s41467-026-75542-3,Nature communications,2026,cc by-nc-nd,41467_2026_75542_MOESM4_ESM.xlsx,Fig. 3,,67,4,example/worklist.csv,"long format id|Time|P|M|log(tv+1), real per-animal tumour volume, plus an id|Survival block"
+verified,PMC13490547,10.1038/s41467-026-75675-5,Nature communications,2026,cc by-nc-nd,41467_2026_75675_MOESM4_ESM.xlsx,Figure 2,,24,9,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13490547,10.1038/s41467-026-75675-5,Nature communications,2026,cc by-nc-nd,41467_2026_75675_MOESM4_ESM.xlsx,Figure 5,,20,13,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13490547,10.1038/s41467-026-75675-5,Nature communications,2026,cc by-nc-nd,41467_2026_75675_MOESM4_ESM.xlsx,Figure 6 (Nov 2025),,25,11,contributed/gcanudo-barreras/v25.csv,"CORRECTED (round 2): Mirando la figura, al no ver la curva volumen/tiempo he pensado que no estaban los datos, sin emabrgo los representan como fotos de animales. Sí están en la hoja. Round"
+verified,PMC13490547,10.1038/s41467-026-75675-5,Nature communications,2026,cc by-nc-nd,41467_2026_75675_MOESM4_ESM.xlsx,Figure 7  (Nov 2025),,7,6,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13493945,10.1038/s41467-026-76750-7,Nature communications,2026,cc by,41467_2026_76750_MOESM4_ESM.xlsx,Figure 5,,4,7,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13493945,10.1038/s41467-026-76750-7,Nature communications,2026,cc by,41467_2026_76750_MOESM4_ESM.xlsx,Figure S5,,5,6,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig. S1H,,5,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig. S1I,,18,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig. S1J,,18,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig. S1K,,24,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.1C,,24,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.1D,,6,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.3B,,4,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.4A,,24,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.4G,,24,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.5I,,24,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13500556,10.1038/s41467-026-74315-2,Nature communications,2026,cc by-nc-nd,41467_2026_74315_MOESM14_ESM.xlsx,Fig.6K,,4,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13503689,10.1038/s41467-026-75741-y,Nature communications,2026,cc by-nc-nd,41467_2026_75741_MOESM4_ESM.xlsx,Fig. 7C,,24,4,contributed/gcanudo-barreras/v25.csv,flux normalized to day
+verified,PMC13503689,10.1038/s41467-026-75741-y,Nature communications,2026,cc by-nc-nd,41467_2026_75741_MOESM4_ESM.xlsx,Fig. 8C,,53,14,contributed/gcanudo-barreras/v25.csv,normalized to day
+verified,PMC13503689,10.1038/s41467-026-75741-y,Nature communications,2026,cc by-nc-nd,41467_2026_75741_MOESM4_ESM.xlsx,Fig. 9C,,60,5,contributed/gcanudo-barreras/v25.csv,normalized to day
+verified,PMC13503689,10.1038/s41467-026-75741-y,Nature communications,2026,cc by-nc-nd,41467_2026_75741_MOESM4_ESM.xlsx,Fig. 9G,,22,4,contributed/gcanudo-barreras/v25.csv,normalized to day
+verified,PMC13522500,10.1038/s41467-026-76152-9,Nature communications,2026,cc by-nc-nd,41467_2026_76152_MOESM14_ESM.xlsx,Fig.3,,8,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13522500,10.1038/s41467-026-76152-9,Nature communications,2026,cc by-nc-nd,41467_2026_76152_MOESM14_ESM.xlsx,Fig.4,,4,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13522500,10.1038/s41467-026-76152-9,Nature communications,2026,cc by-nc-nd,41467_2026_76152_MOESM14_ESM.xlsx,Fig.S5,,6,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13530216,10.1038/s41467-026-76339-0,Nature communications,2026,cc by-nc-nd,41467_2026_76339_MOESM4_ESM.xlsx,Fig 7a,,4,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13530216,10.1038/s41467-026-76339-0,Nature communications,2026,cc by-nc-nd,41467_2026_76339_MOESM4_ESM.xlsx,Fig 7e,,4,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562552,10.1038/s41467-026-76209-9,Nature communications,2026,cc by,41467_2026_76209_MOESM4_ESM.xlsx,Figure 3h,,24,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562552,10.1038/s41467-026-76209-9,Nature communications,2026,cc by,41467_2026_76209_MOESM4_ESM.xlsx,Figure 5f,,24,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562552,10.1038/s41467-026-76209-9,Nature communications,2026,cc by,41467_2026_76209_MOESM4_ESM.xlsx,Figure 6a,,15,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.1b,,20,15,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.3b,,33,14,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.3h,,17,4,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.5c,,27,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.6e,,27,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.7c,,29,12,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.s19c,,36,15,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13562681,10.1038/s41467-026-76206-y,Nature communications,2026,cc by,41467_2026_76206_MOESM4_ESM.xlsx,Fig.s3b,,22,14,contributed/gcanudo-barreras/v25.csv,bli
+verified,PMC13575198,10.1038/s41467-026-75872-2,Nature communications,2026,cc by-nc-nd,41467_2026_75872_MOESM9_ESM.xlsx,Figure 8,,39,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13578219,10.1038/s41467-026-76647-5,Nature communications,2026,cc by-nc-nd,41467_2026_76647_MOESM4_ESM.xlsx,Fig.10,,20,10,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13578219,10.1038/s41467-026-76647-5,Nature communications,2026,cc by-nc-nd,41467_2026_76647_MOESM4_ESM.xlsx,Fig.6,,17,6,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13578219,10.1038/s41467-026-76647-5,Nature communications,2026,cc by-nc-nd,41467_2026_76647_MOESM4_ESM.xlsx,Fig.9,,17,7,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13578219,10.1038/s41467-026-76647-5,Nature communications,2026,cc by-nc-nd,41467_2026_76647_MOESM4_ESM.xlsx,Fig.S29,,30,8,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13590603,10.1038/s41467-026-76864-y,Nature communications,2026,cc by,41467_2026_76864_MOESM12_ESM.xlsx,Fig. 3,,30,45,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13590603,10.1038/s41467-026-76864-y,Nature communications,2026,cc by,41467_2026_76864_MOESM12_ESM.xlsx,Fig. 5,,35,5,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13590603,10.1038/s41467-026-76864-y,Nature communications,2026,cc by,41467_2026_76864_MOESM12_ESM.xlsx,Fig. 7,,26,41,contributed/gcanudo-barreras/v25.csv,
+verified,PMC13590603,10.1038/s41467-026-76864-y,Nature communications,2026,cc by,41467_2026_76864_MOESM12_ESM.xlsx,Fig. S7,,14,28,contributed/gcanudo-barreras/v25.csv,
+verified,PMC7138317,10.1371/journal.pbio.3000666,PLoS biology,2020,cc by,pbio.3000666.s008.xlsx,fig.6C,,9,7,runs/v10_verdicts.csv,RETRACTED (V17). Scored FALSE as unresolvable from the documents. The ARTICLE resolves it: Fig 6 legend reads 'tumor volumes at the indicated time points (C) ... injected to the nude mice'.
+verified,PMC7617236,10.1038/s41586-024-08257-4,Nature,2025,cc by,41586_2024_8257_MOESM18_ESM.xlsx,Ext. Data Fig. 11g,,37,9,contributed/gcanudo-barreras/v18.csv,Parece una serie de volumen tumoral. Supongo que cada columna es un animal diferente
+verified,PMC9498964,10.1371/journal.pbio.3001753,PLoS biology,2022,cc by,pbio.3001753.s002.xlsx,S5_Data. Tumors (Fig 1),,23,7,contributed/gcanudo-barreras/v24.csv,"No he revisado el artículo, pero los datos parecen e indican claramente ser una serie longitudinal de volumen tumoral"
+verified,PMC9767871,10.1038/s43018-022-00470-2,Nature cancer,2022,cc by,43018_2022_470_MOESM18_ESM.xlsx,Ext.Fig. 6f,,34,7,contributed/gcanudo-barreras/v18.csv,"CORRECTED (round 2), by the human, after the V23 adjudicator pointed to the sheet title 'Tumor growth (Panc02)': sgNT IgG is an arm, not the readout. Round 1 was FALSE: Parece una serie lon"
+verified,PMC9970872,10.1038/s43018-022-00508-5,Nature cancer,2023,cc by,43018_2022_508_MOESM3_ESM.xlsx,Fig 3d_vol,,105,5,runs/v10_verdicts.csv,"raw tumours' volume (mm3) at 1/4/7/10/14 days, one row per tumour"
+verified,PMC9970875,10.1038/s43018-022-00506-7,Nature cancer,2023,cc by,43018_2022_506_MOESM4_ESM.xlsx,Fig 2,,43,12,contributed/gcanudo-barreras/v18.csv,Es serie longitudinal con medidas de volumen por animal

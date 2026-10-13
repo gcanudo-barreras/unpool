@@ -1,0 +1,5 @@
+journal,pool,sampled,bundle,tabular,accepted,skipped_big,pct_tabular,pct_accepted,unit,profile,min_subjects,min_points,sampled_on,ids_file
+Communications Biology,from_ids,100,100,92,63,1,92.0,63.0,scanner_acceptances_NOT_verified_cells,body_weight,4,4,,journal_yield_ids.csv
+Nature Communications,from_ids,100,94,87,64,9,87.0,64.0,scanner_acceptances_NOT_verified_cells,body_weight,4,4,,journal_yield_ids.csv
+Nature Cancer,from_ids,100,70,59,49,1,59.0,49.0,scanner_acceptances_NOT_verified_cells,body_weight,4,4,,journal_yield_ids.csv
+Nature Medicine,from_ids,100,64,16,9,0,16.0,9.0,scanner_acceptances_NOT_verified_cells,body_weight,4,4,,journal_yield_ids.csv

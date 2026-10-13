@@ -1,0 +1,16 @@
+{
+ "tool": "guard.py",
+ "checked": "C:\\proyectos\\unpool\\example\\corpus\\mdamb231_crispra_v1.csv",
+ "sha256": "3b34c22d520cdf5a6071dc6e2b76c5e987a7e6275f69987324bc5b5279527b14",
+ "reserved_manifest": null,
+ "checks": {
+  "single_source": {
+   "state": "PASSED",
+   "keys": 1
+  },
+  "reserved_units": {
+   "state": "NOT RUN",
+   "manifest": null
+  }
+ }
+}

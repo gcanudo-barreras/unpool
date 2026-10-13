@@ -1,0 +1,23 @@
+name: False negative
+description: A sheet holds per-subject longitudinal data and the scanner rejected it
+labels: ["false-negative", "recall"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please paste the HEADER ROW. The header is usually the whole story --
+        the one false negative measured out of sample was `Day1 | Day4 | Day7`,
+        where the day lives in text rather than in a number.
+  - type: input
+    attributes: {label: DOI}
+    validations: {required: true}
+  - type: input
+    attributes: {label: File and sheet}
+    validations: {required: true}
+  - type: textarea
+    attributes:
+      label: The header row, verbatim
+      render: text
+    validations: {required: true}
+  - type: input
+    attributes: {label: Subjects and timepoints you counted, placeholder: "8 animals, 6 days"}

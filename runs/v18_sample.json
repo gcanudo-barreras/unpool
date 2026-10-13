@@ -1,0 +1,483 @@
+{
+ "seed": 20260919,
+ "n": 20,
+ "profile": "tumor_volume",
+ "min_subjects": 4,
+ "min_points": 4,
+ "accepted_papers_total": 484,
+ "excluded_known_verdict": 66,
+ "population": 418,
+ "exclusion_sources": [
+  "V8 (docs/VALIDATION.md): 3",
+  "v2_sample.json: 19",
+  "v9_sample.json: 10",
+  "v12_sample.json: 7",
+  "v14_sample.json: 10",
+  "runs/v10_verdicts.csv: 20",
+  "example/worklist.csv: 4",
+  "runs/worklist.csv: 4"
+ ],
+ "excluded_pmcids": {
+  "PMC10501593": [
+   "v12_sample.json"
+  ],
+  "PMC10577633": [
+   "v9_sample.json"
+  ],
+  "PMC10942784": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC11056318": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC11357990": [
+   "v9_sample.json"
+  ],
+  "PMC11560846": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC11663793": [
+   "V8 (docs/VALIDATION.md)"
+  ],
+  "PMC11663794": [
+   "v12_sample.json"
+  ],
+  "PMC12075843": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC12170886": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC12352675": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC12367167": [
+   "v14_sample.json"
+  ],
+  "PMC12397317": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC12517536": [
+   "v14_sample.json"
+  ],
+  "PMC12527938": [
+   "V8 (docs/VALIDATION.md)"
+  ],
+  "PMC12545207": [
+   "V8 (docs/VALIDATION.md)"
+  ],
+  "PMC12589105": [
+   "v9_sample.json"
+  ],
+  "PMC12589595": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC12611756": [
+   "v9_sample.json"
+  ],
+  "PMC12685207": [
+   "v14_sample.json"
+  ],
+  "PMC12779575": [
+   "v9_sample.json"
+  ],
+  "PMC12966284": [
+   "v14_sample.json"
+  ],
+  "PMC13013626": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC13096527": [
+   "v2_sample.json"
+  ],
+  "PMC13179327": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC13190318": [
+   "v14_sample.json"
+  ],
+  "PMC13237160": [
+   "v9_sample.json"
+  ],
+  "PMC13278948": [
+   "runs/v10_verdicts.csv",
+   "v14_sample.json"
+  ],
+  "PMC13351075": [
+   "v2_sample.json"
+  ],
+  "PMC13367972": [
+   "v12_sample.json"
+  ],
+  "PMC13372664": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC13373164": [
+   "example/worklist.csv",
+   "runs/worklist.csv",
+   "v2_sample.json"
+  ],
+  "PMC13392447": [
+   "v14_sample.json"
+  ],
+  "PMC13396186": [
+   "v12_sample.json"
+  ],
+  "PMC13396614": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC13402817": [
+   "v2_sample.json"
+  ],
+  "PMC13408345": [
+   "v2_sample.json"
+  ],
+  "PMC13408911": [
+   "v2_sample.json"
+  ],
+  "PMC13408951": [
+   "v2_sample.json"
+  ],
+  "PMC13428747": [
+   "v14_sample.json"
+  ],
+  "PMC13454145": [
+   "v14_sample.json"
+  ],
+  "PMC13470199": [
+   "v2_sample.json"
+  ],
+  "PMC13470201": [
+   "v14_sample.json"
+  ],
+  "PMC13490386": [
+   "example/worklist.csv",
+   "runs/worklist.csv",
+   "v2_sample.json"
+  ],
+  "PMC13490413": [
+   "v9_sample.json"
+  ],
+  "PMC13503664": [
+   "example/worklist.csv",
+   "runs/worklist.csv",
+   "v2_sample.json"
+  ],
+  "PMC13503815": [
+   "v2_sample.json",
+   "v9_sample.json"
+  ],
+  "PMC13507113": [
+   "v2_sample.json"
+  ],
+  "PMC13522462": [
+   "example/worklist.csv",
+   "runs/worklist.csv",
+   "v2_sample.json",
+   "v9_sample.json"
+  ],
+  "PMC13534483": [
+   "v2_sample.json"
+  ],
+  "PMC13538391": [
+   "v12_sample.json"
+  ],
+  "PMC13542117": [
+   "v2_sample.json"
+  ],
+  "PMC13547291": [
+   "v2_sample.json"
+  ],
+  "PMC13548287": [
+   "v9_sample.json"
+  ],
+  "PMC13558603": [
+   "v2_sample.json"
+  ],
+  "PMC13562587": [
+   "v2_sample.json"
+  ],
+  "PMC13572526": [
+   "v2_sample.json"
+  ],
+  "PMC7138317": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC7272425": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC7612546": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC9068207": [
+   "v12_sample.json"
+  ],
+  "PMC9236906": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC9701141": [
+   "v12_sample.json"
+  ],
+  "PMC9701143": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC9757829": [
+   "runs/v10_verdicts.csv"
+  ],
+  "PMC9970872": [
+   "runs/v10_verdicts.csv"
+  ]
+ },
+ "sweep_stats": {
+  "papers": 2390,
+  "bad_zips": 0,
+  "sheets": 20330,
+  "unreadable_members": 0,
+  "size_skipped_members": 22,
+  "papers_only_size_skipped": 8,
+  "accepted_sheets": 2753
+ },
+ "population_caveat": "si_cache/ is the accumulation of past campaigns and of journal_yield.py's 100-paper sweeps across 27 journals. It over-represents those journals and is NOT a random sample of the literature. The direction of the bias is unknown.",
+ "drawn": [
+  {
+   "pmcid": "PMC13470249",
+   "member": "41467_2026_75065_MOESM4_ESM.xlsx",
+   "sheet": "Supplementary Fig. 18",
+   "layout": "wide",
+   "n": 54,
+   "pts": 4,
+   "note": "fold=1.9",
+   "below_floor": 16,
+   "hdr": "t",
+   "signature": "survival"
+  },
+  {
+   "pmcid": "PMC11452177",
+   "member": "elife-94849-supp2.xlsx",
+   "sheet": "Proteins",
+   "layout": "wide",
+   "n": 398,
+   "pts": 4,
+   "note": "fold=33.1",
+   "below_floor": 0,
+   "hdr": "i",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC9767871",
+   "member": "43018_2022_470_MOESM18_ESM.xlsx",
+   "sheet": "Ext.Fig. 6f",
+   "layout": "wide-T",
+   "n": 34,
+   "pts": 7,
+   "note": "fold=5.1",
+   "below_floor": 0,
+   "hdr": "t",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC12779571",
+   "member": "41586_2025_9754_MOESM6_ESM.xlsx",
+   "sheet": "Fig. 4g",
+   "layout": "wide-T",
+   "n": 39,
+   "pts": 18,
+   "note": "fold=135.4",
+   "below_floor": 0,
+   "hdr": "itv",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC11839401",
+   "member": "41586_2024_7948_MOESM4_ESM.xlsx",
+   "sheet": "Tumor size",
+   "layout": "wide-T",
+   "n": 47,
+   "pts": 6,
+   "note": "fold=1.9",
+   "below_floor": 0,
+   "hdr": "itv",
+   "signature": "aggregate vocabulary in the header region (mean/SEM/n=)"
+  },
+  {
+   "pmcid": "PMC9498964",
+   "member": "pbio.3001753.s003.xlsx",
+   "sheet": "ECAR (oligo rotenone) (Fig 4F) ",
+   "layout": "wide",
+   "n": 35,
+   "pts": 6,
+   "note": "fold=2.0",
+   "below_floor": 0,
+   "hdr": "t",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC13481249",
+   "member": "41388_2026_3898_MOESM2_ESM.xlsx",
+   "sheet": "STable5. Patient information",
+   "layout": "wide-T",
+   "n": 4,
+   "pts": 7,
+   "note": "fold=2.0",
+   "below_floor": 4,
+   "hdr": "t",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC7617236",
+   "member": "41586_2024_8257_MOESM18_ESM.xlsx",
+   "sheet": "Ext. Data Fig. 11g",
+   "layout": "wide-T",
+   "n": 37,
+   "pts": 9,
+   "note": "fold=9.9",
+   "below_floor": 0,
+   "hdr": "t",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC9970875",
+   "member": "43018_2022_506_MOESM4_ESM.xlsx",
+   "sheet": "Fig 2",
+   "layout": "wide-T",
+   "n": 43,
+   "pts": 12,
+   "note": "fold=8.0",
+   "below_floor": 3,
+   "hdr": "tv",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC8983046",
+   "member": "elife-77746-fig5-data1.xlsx",
+   "sheet": "Sheet1",
+   "layout": "wide",
+   "n": 11,
+   "pts": 5,
+   "note": "fold=15.1",
+   "below_floor": 3,
+   "hdr": "i",
+   "signature": "aggregate vocabulary in the header region (mean/SEM/n=)"
+  },
+  {
+   "pmcid": "PMC12749580",
+   "member": "42003_2025_9274_MOESM10_ESM.xls",
+   "sheet": "Supplementary Data 7",
+   "layout": "wide-T",
+   "n": 5,
+   "pts": 4,
+   "note": "fold=4.7",
+   "below_floor": 0,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC12909920",
+   "member": "42003_2026_9538_MOESM3_ESM.xlsx",
+   "sheet": "Sheet1",
+   "layout": "wide-T",
+   "n": 13,
+   "pts": 6,
+   "note": "fold=7.0",
+   "below_floor": 1,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC5978322",
+   "member": "EMBJ-37-e98359-s002.xlsx",
+   "sheet": "Table EV1",
+   "layout": "wide",
+   "n": 32,
+   "pts": 10,
+   "note": "fold=8.8",
+   "below_floor": 0,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC13389217",
+   "member": "41467_2026_73574_MOESM4_ESM.xlsx",
+   "sheet": "FigureS11A",
+   "layout": "wide-T",
+   "n": 14,
+   "pts": 4,
+   "note": "fold=4.7",
+   "below_floor": 0,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC12501270",
+   "member": "42003_2025_8826_MOESM5_ESM.xlsx",
+   "sheet": "Figure 6 o",
+   "layout": "wide",
+   "n": 89,
+   "pts": 5,
+   "note": "fold=31.4",
+   "below_floor": 42,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC10965444",
+   "member": "43018_2023_710_MOESM11_ESM.xlsx",
+   "sheet": "Fig. 6",
+   "layout": "wide-T",
+   "n": 5,
+   "pts": 4,
+   "note": "fold=1.7",
+   "below_floor": 12,
+   "hdr": "itv",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC11078746",
+   "member": "41586_2024_7350_MOESM4_ESM.xlsx",
+   "sheet": "Fig4a",
+   "layout": "wide",
+   "n": 49,
+   "pts": 4,
+   "note": "fold=3.6",
+   "below_floor": 5,
+   "hdr": "tv",
+   "signature": "aggregate vocabulary in the header region (mean/SEM/n=)"
+  },
+  {
+   "pmcid": "PMC13006418",
+   "member": "mmc5.xlsx",
+   "sheet": "Supplementary table 6",
+   "layout": "wide",
+   "n": 340,
+   "pts": 4,
+   "note": "fold=1.6",
+   "below_floor": 50,
+   "hdr": "",
+   "signature": ""
+  },
+  {
+   "pmcid": "PMC11393413",
+   "member": "44321_2024_105_MOESM6_ESM.xlsx",
+   "sheet": "HCT15NTC vs TKO",
+   "layout": "wide",
+   "n": 32,
+   "pts": 5,
+   "note": "fold=1.6",
+   "below_floor": 0,
+   "hdr": "v",
+   "signature": "transcriptomics"
+  },
+  {
+   "pmcid": "PMC13366507",
+   "member": "NIHMS2190731-supplement-8.xlsx",
+   "sheet": "Sheet1",
+   "layout": "wide",
+   "n": 68,
+   "pts": 5,
+   "note": "fold=43.4",
+   "below_floor": 0,
+   "hdr": "it",
+   "signature": ""
+  }
+ ]
+}

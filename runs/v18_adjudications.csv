@@ -1,0 +1,21 @@
+pmcid,sheet,verdict,note
+PMC10965444,Fig. 6,UNRESOLVED,"Subject-id/time/value header fits per-mouse data, but the only 4-timepoint panel (f, BLI days 21-51) is reported as group mean +/- s.e.m. and fold=1.7 is too flat for that curve, so the bundle does not settle it."
+PMC11078746,Fig4a,FALSE,"Header region carries aggregate vocabulary (mean/SEM/n=) with no subject-id token, and the panel-a legend states data are mean +/- s.e.m."
+PMC11393413,HCT15NTC vs TKO,FALSE,Scanner detected a transcriptomics signature and only a value header; no time or subject axis and no legend to contradict it.
+PMC11452177,Proteins,FALSE,"398 subject series with no time header, far beyond any animal cohort the methods describe (groups of a few mice)."
+PMC11839401,Tumor size,UNRESOLVED,"No legend located; the header carries both a subject-id token and aggregate vocabulary (mean/SEM/n=), which point opposite ways."
+PMC12501270,Figure 6 o,FALSE,"Panel-o legend: quantification of yH2AX foci in ~100 nuclei per condition, an in vitro imaging readout, not in vivo tumour growth."
+PMC12749580,Supplementary Data 7,UNRESOLVED,No legend located and the sheet was accepted on numeric shape alone (empty header); 5 series x 4 points matches neither the 12 mice nor the 4 arms cleanly.
+PMC12779571,Fig. 4g,TRUE,"Panel-g legend names PDX tumour growth in NSG mice (n=10/9/10), and the sheet has subject-id/time/value headers with 39 series over 18 timepoints, matching thrice-weekly calliper measurement of ~29 mice."
+PMC12909920,Sheet1,FALSE,"The only legend located covers an all-in-vitro figure whose CCK8 panel runs 6 concentrations and 6 timepoints, matching pts=6; the in vivo schedule (every 3 days for 30 days) would give ~10 points."
+PMC13006418,Supplementary table 6,FALSE,"340 subject series against a stated n=5/group, and fold=1.6 across 4 points is too flat for tumour growth."
+PMC13366507,Sheet1,FALSE,"The legend describes a 300-cell-line viability dose-response screen; 68 series of 5 points with fold=43 reads as a concentration ladder, not a calendar."
+PMC13389217,FigureS11A,UNRESOLVED,No legend located for this panel and the sheet was accepted on numeric shape alone (empty header); nothing in the bundle distinguishes per-animal from aggregate.
+PMC13470249,Supplementary Fig. 18,FALSE,Scanner detected a survival signature with only a time header; survival data is not per-animal tumour volume over time.
+PMC13481249,STable5. Patient information,UNRESOLVED,"Only a time header (no subject id), 4 series over 7 points, and no legend sentence for this sheet; the figure's one in vivo panel reports group mean +/- SEM with n=6, which does not match either way."
+PMC5978322,Table EV1,FALSE,"Legend is thermal proteome profiling: the 32 series match the 32 thermally stable proteins named and the 10 points are the 37-65 C temperature ladder, not a time axis."
+PMC7617236,Ext. Data Fig. 11g,UNRESOLVED,"Extended Data legend not retrievable (wall) and the sheet has only a time header; the article contains many candidate curves, per-animal and aggregate alike."
+PMC8983046,Sheet1,FALSE,"The legend identifies this as Figure 1 source data, an all-in-vitro/muscle-histology figure, and the header region carries aggregate vocabulary (mean/SEM/n=)."
+PMC9498964,ECAR (oligo rotenone) (Fig 4F),FALSE,"Panel-F legend: OCR/ECAR Seahorse measurements on cells with n=4 replicates per line, an in vitro kinetic run."
+PMC9767871,Ext.Fig. 6f,FALSE,"Panel-f legend: percentage of F4/80+ TAMs by FACS in sgNT/sgSlc4a4 tumours, a single-timepoint flow cytometry readout."
+PMC9970875,Fig 2,TRUE,"Panel-b legend gives volumetric SW1 tumour growth curves across 4 arms totalling ~33 mice, and the sheet holds 43 time/value series over 12 timepoints, far more series than arms."

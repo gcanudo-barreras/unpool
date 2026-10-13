@@ -1,0 +1,19 @@
+{
+ "tool": "fingerprint.py",
+ "mode": "self-scan",
+ "corpus_dir": "C:/proyectos/unpool/example/corpus",
+ "key": "day 6 dp, vol 2 dp, sorted, model NOT in key",
+ "does_not_catch": [
+  "rescaled units",
+  "truncated series",
+  "partial overlap",
+  "one dropped subject"
+ ],
+ "corpus_files_excluded": [],
+ "curves_indexed": 41,
+ "distinct_fingerprints": 41,
+ "within_source_identical": 0,
+ "cross_source_collisions": 0,
+ "registered_reference": 0,
+ "state": "PASSED"
+}

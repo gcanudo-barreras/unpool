@@ -1,0 +1,92 @@
+# Per-animal longitudinal body weight. Same shape as tumor_volume, different
+# value column. Worth its own profile because body weight is the humane-endpoint
+# and 3Rs measurement, is published even more often as a group mean, and is
+# frequently carried in the SAME sheet as the tumour volumes.
+#
+# NO MEASURED RECALL. tumor_volume's 21/21 does not transfer: it was measured on
+# files selected for carrying tumour volumes.
+
+name = "body_weight"
+description = "per-subject longitudinal body weight from supplementary tables"
+
+[columns]
+# `rat|rats` added after a behavioural-neuroscience user built a
+# profile from this one and reported that the subject pattern names the mouse
+# and not the rat -- an oncology assumption nobody had examined, in a field
+# where half the longitudinal work is in rats.
+#
+# MEASURED BEFORE APPLYING: 115 accepted sheets before, 115 after, no sheet
+# gained and none lost. That does not VALIDATE it -- every fixture here is a
+# mouse study, so the change is free on what can be measured and correct on
+# principle, which is a weaker claim and the true one.
+subject = '^\s*(mouse|mice|rat|rats|animal|id|subject|sample|no\.?|#)'
+subject_strict = '^\s*(mouse|mice|rat|rats|animal|id|subject|sample|no\.?|#)'
+covariate = '^\s*(day|days|time|timepoint|date|week)'
+value = '(body\s*w|bw\b|weight|mass|\bg\b|grams)'
+ordinal_suffix = '\bt[_\s]*\d+\b'
+
+[response]
+# BODY WEIGHT DOES NOT GROW. A healthy mouse on study moves a few percent;
+# a losing one drops. Under the old hardcoded `fold >= 1.5` this profile could
+# not match a weight block at ALL, and returned the TUMOUR block of the same
+# workbook instead -- `fold=8.0` on a body-weight query.
+#
+# The band below is a first honest guess, NOT a measurement. 0.6-1.6 admits
+# substantial loss and substantial gain while excluding a tumour curve. If it
+# turns out to be wrong it is wrong in a way that can be seen and argued with,
+# which the previous silence was not.
+direction = "stable"
+fold_lo = 0.6
+fold_hi = 1.6
+min_consistent = 0.0       # stable means no required direction
+allow_fractional_axis = false
+
+[floors]
+# min_subjects LOWERED 5 -> 4 (V9), by the owner's decision, and
+# measured rather than assumed. A floor of 5 excluded small-n studies
+# STRUCTURALLY, and n=3-4 per arm is ordinary preclinical practice -- more so
+# under 3Rs reduction pressure -- which means the tool was blindest to exactly
+# the studies whose published means are least trustworthy.
+#
+# What it cost is in docs/VALIDATION.md V9, measured over 20,330 sheets, and it
+# travels with the number: lowering a floor can only ADD acceptances, so recall
+# cannot fall, but precision can. Every recall and precision figure in this
+# repository was measured at the floors in force when it was taken.
+#
+# KNOWN AND NOT FIXED HERE: this floor's unit is the SHEET, and the scientific
+# unit is the ARM. A sheet pooling five arms clears it on the total while
+# contributing arms of 2 and 3 animals -- observed on PMC12545207. Making the
+# floor arm-aware is a separate change with its own measurement.
+min_subjects = 4
+min_points = 4
+
+# MEASURED, AND IT IS NOT FLATTERING TO THIS FILE
+# ----------------------------------------------------------------------------
+# Over 22 cached fixtures / 368 sheets, `tumor_volume` accepts 115 sheets and a
+# NULL profile -- every pattern replaced by one that can never match -- accepts
+# 112. These patterns decide 3 sheets out of 115.
+#
+# The 3 are all FLAT LONG-FORMAT TEXT files (`ID,Time,Vol`, `ID Time
+# Observation`). So the patterns are decisive for long format and close to
+# irrelevant for spreadsheets, where structure alone -- a numeric grid with a
+# regular ordinal axis, which no field here touches -- does the deciding.
+#
+# Adapting this file to a new data type therefore works for a long-format
+# export and does almost nothing for a wide sheet. That needs `scan.py`.
+#
+# Nothing was tuned in response. See PROTOCOL.md rule 9.
+
+# AND THE BAND MAY BE WRONG FOR THE USE CASE THAT NEEDS IT MOST
+# ----------------------------------------------------------------------------
+# Raised by a 3Rs / animal-welfare user and it is the sharpest objection this
+# profile has received: the people who most need per-animal body weight are
+# studying HUMANE ENDPOINTS, which is to say the extreme tail. A mouse losing
+# 20% is at fold 0.8 and inside the band; a study that ran to severe loss can
+# fall below 0.6 and be REJECTED -- and rejected silently, as an ordinary
+# non-match.
+#
+# So this band is tuned for the typical animal and the atypical one is the
+# point. Nothing is changed here in response, because 0.6 and 1.6 were a guess
+# and replacing one guess with another guess is not progress. Fixing it means
+# measuring against sheets known to contain endpoint-triggering weight loss,
+# which nobody has assembled.

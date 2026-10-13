@@ -1,0 +1,14 @@
+{
+  "name": "unpool",
+  "displayName": "unpool",
+  "version": "0.1.0",
+  "description": "Find and verify per-animal longitudinal tumour data hidden in open-access supplementary spreadsheets, with a three-state output contract (candidate / screened / verified) so nothing is presented as data before a person has verified it.",
+  "author": {
+    "name": "Guillermo Canudo-Barreras",
+    "url": "https://orcid.org/0000-0002-1949-9185"
+  },
+  "homepage": "https://github.com/gcanudo-barreras/unpool",
+  "repository": "https://github.com/gcanudo-barreras/unpool",
+  "license": "Apache-2.0",
+  "keywords": ["science", "preclinical", "tumour-growth", "individual-data", "europe-pmc", "data-reuse"]
+}

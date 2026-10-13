@@ -1,0 +1,15 @@
+{
+  "name": "unpool",
+  "description": "unpool: recover per-subject data from publications that report only the pooled summary.",
+  "owner": {
+    "name": "Guillermo Canudo-Barreras",
+    "url": "https://orcid.org/0000-0002-1949-9185"
+  },
+  "plugins": [
+    {
+      "name": "unpool",
+      "source": "./",
+      "description": "Per-animal longitudinal tumour data from open-access supplementary spreadsheets, triaged and verified under a candidate / screened / verified contract."
+    }
+  ]
+}

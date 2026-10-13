@@ -1,0 +1,67 @@
+{
+ "seed": 20260918,
+ "population": 198,
+ "n": 10,
+ "drawn": [
+  {
+   "pmcid": "PMC12589105",
+   "sheet": "Fig 4i",
+   "member": "41586_2025_9503_MOESM14_ESM.xlsx",
+   "verdict": "('wide', 4, 4, 'fold=46.0')"
+  },
+  {
+   "pmcid": "PMC11357990",
+   "sheet": "Fig. 6c",
+   "member": "43018_2024_781_MOESM14_ESM.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=406.0')"
+  },
+  {
+   "pmcid": "PMC13503815",
+   "sheet": "Figure 2",
+   "member": "41467_2026_75852_MOESM4_ESM.xlsx",
+   "verdict": "('wide', 4, 4, 'fold=3.8')"
+  },
+  {
+   "pmcid": "PMC10577633",
+   "sheet": "RawData",
+   "member": "EMBJ-42-e110844-s007.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=6.4')"
+  },
+  {
+   "pmcid": "PMC13490413",
+   "sheet": "Fig. 7d",
+   "member": "41467_2026_74639_MOESM6_ESM.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=3.4')"
+  },
+  {
+   "pmcid": "PMC13237160",
+   "sheet": " Fig6",
+   "member": "42003_2026_10009_MOESM2_ESM.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=46.8')"
+  },
+  {
+   "pmcid": "PMC12779575",
+   "sheet": "ED Fig. 10e",
+   "member": "41586_2025_9709_MOESM19_ESM.xlsx",
+   "verdict": "('wide-T', 4, 9, 'fold=37.4')"
+  },
+  {
+   "pmcid": "PMC13522462",
+   "sheet": "Fig3A&B",
+   "member": "41467_2026_76337_MOESM4_ESM.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=9496.2')"
+  },
+  {
+   "pmcid": "PMC12611756",
+   "sheet": "EDF4e",
+   "member": "41586_2025_9655_MOESM3_ESM.xlsx",
+   "verdict": "('wide-T', 4, 6, 'fold=8.5')"
+  },
+  {
+   "pmcid": "PMC13548287",
+   "sheet": "Figure S9",
+   "member": "jitc-14-9-s003.xlsx",
+   "verdict": "('wide-T', 4, 4, 'fold=8.1')"
+  }
+ ]
+}

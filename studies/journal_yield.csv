@@ -1,0 +1,28 @@
+journal,pool,sampled,bundle,tabular,accepted,skipped_big,pct_tabular,pct_accepted,unit,profile
+Nature Communications,2562,100,94,87,71,9,87.0,71.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Communications Biology,298,100,100,92,76,1,92.0,76.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Nature,357,100,78,73,62,2,73.0,62.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Nature Cancer,116,100,70,59,49,1,59.0,49.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Nature Medicine,140,100,64,16,10,0,16.0,10.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Nature Metabolism,43,43,34,20,18,0,46.5,41.9,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cell Death Dis,2533,100,99,35,7,0,35.0,7.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cell Death and Differentiation,305,100,50,16,5,1,16.0,5.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Oncogene,935,100,95,31,6,0,31.0,6.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Signal Transduction and Targeted Therapy,321,100,98,27,14,1,27.0,14.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+British Journal of Cancer,619,100,49,14,4,0,14.0,4.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+npj Precision Oncology,247,100,100,19,5,0,19.0,5.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+npj Breast Cancer,102,100,100,16,6,0,16.0,6.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Scientific Reports,3151,100,99,22,7,0,22.0,7.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+eLife,225,100,88,46,27,1,46.0,27.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+EMBO Molecular Medicine,264,100,48,27,6,0,27.0,6.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+The EMBO Journal,116,100,38,22,5,0,22.0,5.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cell Reports,362,100,90,24,5,2,24.0,5.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cell Reports Medicine,327,100,98,36,6,0,36.0,6.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Molecular Cancer,615,100,97,38,7,0,38.0,7.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Journal for ImmunoTherapy of Cancer,889,100,100,14,4,0,14.0,4.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cancer Cell International,654,100,97,19,1,0,19.0,1.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Theranostics,1259,100,100,7,1,0,7.0,1.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+PLoS One,2410,100,97,31,15,0,31.0,15.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+PLoS Biology,47,47,46,35,33,0,74.5,70.2,scanner_acceptances_NOT_verified_cells,tumor_volume
+Cancers (Basel),2498,100,98,0,0,0,0.0,0.0,scanner_acceptances_NOT_verified_cells,tumor_volume
+Frontiers in Oncology,2264,100,99,13,2,0,13.0,2.0,scanner_acceptances_NOT_verified_cells,tumor_volume

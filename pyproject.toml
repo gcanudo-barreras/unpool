@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+# ONE PACKAGE, `unpool/`. The seven tools used to be flat top-level modules,
+# which meant `pip install` put modules called `scan`, `mine`, `guard` and
+# `paper` into everyone's site-packages, and an explicit allowlist that went
+# stale three modules in a row (commit 04d85b6). A package has neither
+# problem: setuptools finds it, and nothing else is on the import path.
+[tool.setuptools]
+packages = ["unpool"]
+
+[project]
+name = "unpool"
+version = "0.1.0"
+description = "Recover individual-level data from publications that report only the pooled summary"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+
+# THE RUNTIME IS STDLIB. `tomllib` (3.11+) reads the profiles, `urllib` and
+# `zipfile` do the fetching, `csv` does the rest. The two dependencies below
+# are SPREADSHEET PARSERS and nothing else.
+#
+# THEY ARE NOT OPTIONAL IN PRACTICE AND THE HISTORY SAYS SO. Without them the
+# scanner cannot open a single .xlsx or .xls -- which is most supplementary
+# material -- and the failure is silent and directional: every spreadsheet is
+# reported as "no per-animal table found". Measured on the recall
+# gate: 21/21 with them, 4/21 without, no error either way, honest-looking
+# report both times. `scan.preflight_banner()` now refuses to let that pass
+# unannounced, but the real fix is having them installed.
+dependencies = [
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+]
+
+[project.optional-dependencies]
+# Supplementary-figure legends live in the SI PDF (V28). Without this, unpool
+# says so as a wall and carries on.
+pdf = ["pypdf>=4"]
+
+[project.urls]
+Source = "https://github.com/gcanudo-barreras/unpool"
+
+[project.scripts]
+unpool = "unpool.__main__:main"
+
+[tool.unpool]
+# `requires-python = ">=3.11"` is for tomllib. Development ran on 3.13
+# and the recall gate returns a different recall figure under a 3.14 that happens to
+# be first on PATH -- not because of a version incompatibility, but because
+# the packages were installed in only one of them. Pin the interpreter you
+# measure with and name it beside any figure you quote.
+measured_on = "CPython 3.13"

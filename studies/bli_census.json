@@ -1,0 +1,17 @@
+{
+ "papers": 2390,
+ "members": 3848,
+ "sheets": 20330,
+ "unreadable_members": 0,
+ "size_skipped_members": 22,
+ "bad_zips": 0,
+ "accepted": 2487,
+ "bli_sheets": 159,
+ "bli_accepted": 18,
+ "log_bli_sheets": 2,
+ "log_bli_accepted": 0,
+ "elapsed_s": 207.8,
+ "base_accept_rate": 0.1223,
+ "bli_accept_rate": 0.1132,
+ "profile": "tumor_volume"
+}

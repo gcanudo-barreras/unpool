@@ -1,0 +1,268 @@
+pmcid,sheet,verdict,readout,rung,note
+PMC13503731,Fig2C,FALSE,human PFS/follow-up times,L2,"clinical trial swimmer plot, human patients"
+PMC13503731,Suppl Fig2A,FALSE,human plasma drug concentration (PK),L1,"human patient pharmacokinetics, not tumour growth"
+PMC13388912,Figure 1,TRUE,volume,L2,"panel 1e 4T1 tumour growth after BMDC transfer, 3 arms x 5 mice x 6 days; rest is human TMA and flow"
+PMC13388912,Figure 3,FALSE,in vitro MitoTracker/ROS,L2,in vitro DC mitochondrial assays
+PMC13388912,Figure 4,FALSE,flow cytometry endpoints,L2,single-endpoint tumour-infiltrating immune cell quantifications
+PMC13388912,5b,TRUE,volume,L2,"Fig 5b 4T1 tumour growth curves, 8 arms"
+PMC13388912,5d,TRUE,volume,L2,Fig 5d 4T1 tumour growth after macrophage depletion
+PMC13388912,5e,TRUE,volume,L2,Fig 5e B16-OVA growth in C57BL/6
+PMC13388912,5f,TRUE,volume,L2,Fig 5f B16-OVA growth in Batf3-/-
+PMC13388912,5h,TRUE,volume,L2,Fig 5h B16-OVA growth in Rag1-/-
+PMC13388912,5j-k,TRUE,volume,L2,Fig 5j-k 4T1 growth after T cell depletion
+PMC13388912,5n,TRUE,volume,L2,Fig 5n tumour growth with anti-PD-L1 combos
+PMC13388912,5r,FALSE,flow cytometry endpoint,L1,"Tcm CD8/CD4 fractions, single endpoint"
+PMC13388912,6b,TRUE,volume,L2,Fig 6b 4T1-OVA growth curves
+PMC13388912,6d,TRUE,volume,L2,Fig 6d tumour growth curves
+PMC13388912,6f,TRUE,volume,L2,Fig 6f primary tumour growth
+PMC13388912,6g,TRUE,volume,L2,Fig 6g distal tumour growth
+PMC13388912,6r,TRUE,volume,L2,"Fig 6r 4T1-OVA growth, cDC1 vaccine"
+PMC13388912,7m,TRUE,volume,L2,Fig 7m humanized CDX growth
+PMC13388912,7p,TRUE,volume,L2,Fig 7p tumour growth
+PMC13388912,S7,TRUE,volume,L3,no legend; day 0-25 growth curves per mouse PBS vs two BMDC protocols; text: BMDC function validated (Supp Figs 4-7)
+PMC13388912,S12,FALSE,DC assays,L1,peripheral/splenic/tumour DC endpoint measures
+PMC13388912,S15,FALSE,in vitro BMDC assays,L1,in vitro hypoxia/tumour-supernatant assays
+PMC13388912,S18,FALSE,immune cell fractions,L1,"blood/spleen cell fractions, single endpoint"
+PMC13388912,S24,FALSE,in vitro conjugation,L1,"dose series, not animals"
+PMC13388912,S30,FALSE,in vitro kinetics,L1,minute time course in vitro
+PMC13388912,S33,FALSE,in vitro kinetics,L1,"minute time course, cells"
+PMC13388912,S34,FALSE,in vitro kinetics,L1,"minute time course, cells/algae"
+PMC13388912,S41,FALSE,in vitro mitochondria/OCR,L1,in vitro
+PMC13388912,S45,FALSE,in vitro assays,L1,in vitro with inhibitors
+PMC13388912,S52,FALSE,in vitro assays,L1,in vitro
+PMC13388912,S53,FALSE,in vitro assays,L1,in vitro
+PMC13388912,S55,FALSE,in vitro DC/T cell/cytokine,L1,in vitro
+PMC13388912,S56,FALSE,biodistribution,L1,organ signal at 24/48/96 h
+PMC13388912,S62,FALSE,endpoint per group,L1,G1-G8 endpoint measures
+PMC13388912,S64,FALSE,cytokines,L1,G1-G8 cytokine endpoints
+PMC13388912,S72,TRUE,volume,L3,right block: tumour growth days 7-25 PBS / light 10 / light 30 / CCR2-DC-ANV+L; left: T cell flow; text: light alone did not inhibit tumour growth
+PMC13388912,S73,TRUE,volume,L3,"growth curves PBS / CCR2-DC-ANV+L / PSI,PSII-inhibited; text: inhibition abolished anti-tumour efficacy"
+PMC13388912,S81,FALSE,serum/immunogenicity over days,L1,"ANV vs CCR2-DC-ANV time course, not tumour"
+PMC13388912,S82,FALSE,antibody/cytokine levels,L1,immunoglobulin isotypes
+PMC13388912,S86,FALSE,flow endpoints,L1,G1-G5 immune cells
+PMC13388912,S90,FALSE,in vitro,L1,dose series
+PMC13388912,Supplementary Table 1,FALSE,proteomics,L1,peptide identification
+PMC13388912,Supplementary Table 2,FALSE,proteomics,L1,peptide identification
+PMC13612829,Figure 4,FALSE,methylation / RT-qPCR,L2,"in vitro: uncropped gels, BSP/WGBS heatmaps, p16 RT-qPCR induction in cell lines; no tumour readout"
+PMC13612829,Supp Figure 4,FALSE,in vitro growth % / RT-qPCR / methylation,L1,"cell-line growth percentages, gels, COBRA, U2OS relative expression, heatmaps; legend in SI (not located)"
+PMC13612829,Figure 5,TRUE,volume,L2,"panel 5g Tumor Sizes (mm3): 9 mice per arm x 3 arms (Control, Promoter, LF+RF), days 0-13; legend 5g n=9 per group; other panels in vitro"
+PMC13612829,Supp Figure 5,TRUE,volume,L1,"panel S5f Tumor Growth Sizes (mm3): Non-Targeting 1-9 and p16 1-9, days 2-12; legend in SI (not located); other panels in vitro"
+PMC13381856,Fig. 1b,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Fig. 1h,FALSE,in vitro proliferation,L2,legend h-j in vitro proliferation assays
+PMC13381856,Fig. 1i,FALSE,in vitro proliferation,L2,legend h-j in vitro proliferation assays (hours 24-96 normalised)
+PMC13381856,Fig. 1j,FALSE,in vitro proliferation,L2,legend h-j in vitro proliferation assays
+PMC13381856,Fig. 1k,TRUE,volume,L1,"per-mouse tumour volumes, days 0-15/17, NTC and sgRNA1-3 under isotype or Comb (legend k-m in vivo tumour growth); D = dead"
+PMC13381856,Fig. 1l,TRUE,volume,L1,"per-mouse tumour volumes, days 0-17, NTC and sgRNA1-3 under isotype or aPD-1"
+PMC13381856,Fig. 1m,TRUE,volume,L1,"per-mouse tumour volumes, days 0-20, NTC and sgRNA1-3 under isotype or aPD-1"
+PMC13381856,Fig. 1n,FALSE,volume (group mean/SEM) + survival,L0,means/SEM growth curve and OS table
+PMC13381856,Fig. 1o,FALSE,volume (group mean/SEM) + survival,L0,means/SEM growth curve and OS table
+PMC13381856,Fig. 1p,FALSE,volume (group mean/SEM) + survival,L0,means/SEM growth curve and OS table
+PMC13381856,Fig. 3g,FALSE,flow cytometry,L2,single-endpoint flow quantification of macrophages
+PMC13381856,Fig. 3j,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Fig. 4c,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Fig. 4e,FALSE,flow cytometry,L2,single-endpoint TAM flow quantification
+PMC13381856,Fig. 4i,FALSE,in vitro proliferation,L2,legend: in vitro proliferation assay
+PMC13381856,Fig. 4j,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Fig. 4l,FALSE,flow cytometry,L2,single-endpoint TAM flow quantification
+PMC13381856,Fig. 5d,FALSE,in vitro proliferation,L2,legend: in vitro proliferation assay
+PMC13381856,Fig. 5e,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Fig. 6d,FALSE,in vitro proliferation,L2,legend: in vitro proliferation of A375 cells
+PMC13381856,Supplementary Fig. S1a,TRUE,volume,L1,"per-mouse tumour volumes for Control/GVAX/aPD-1/Comb (individual curves behind Fig. 1b), days 0-13/15; legend in SI (not located)"
+PMC13381856,Supplementary Fig. S1f,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1, 6 replicates per line/clone; legend in SI"
+PMC13381856,Supplementary Fig. S1j,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1, 6 replicates per line/clone; legend in SI"
+PMC13381856,Supplementary Fig. S1n,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1, 6 replicates per line/clone; legend in SI"
+PMC13381856,Supplementary Fig. S1r,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Supplementary Fig. S1t,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1; legend in SI"
+PMC13381856,Supplementary Fig. S1u,FALSE,volume (group mean/SEM),L0,group means and SEM only
+PMC13381856,Supplementary Fig. S3e,TRUE,volume,L1,"per-mouse tumour volumes NTC/KO + PBS/LC (individual curves behind Fig. 3j), days 0-15; legend in SI"
+PMC13381856,Supplementary Fig. S4e,TRUE,volume,L1,"per-mouse tumour volumes NTC/KO + isotype/anti-IFNg (individual curves behind Fig. 4c), days 0-15; legend in SI"
+PMC13381856,Supplementary Fig. S4f,FALSE,flow cytometry,L1,single-endpoint macrophage/MHCII flow values
+PMC13381856,Supplementary Fig. S4g,TRUE,volume,L1,"per-mouse tumour volumes NTC/Mir25 KO/Ago2 KO/DKO (individual curves behind Fig. 4j), days 0-15; legend in SI"
+PMC13381856,Supplementary Fig. S5f,TRUE,volume,L1,"per-mouse tumour volumes NTC/Mir25 KO/Sdc3 KO/DKO (individual curves behind Fig. 5e), days 0-15; legend in SI"
+PMC13381856,Supplementary Fig. S5h,TRUE,volume,L1,"per-mouse tumour volumes Control/Mir25 KO/ABE8e sgRNA, days 0-15; legend in SI"
+PMC13381856,Supplementary Fig. S6c,FALSE,editing efficiency,L1,in vitro editing percentages across cell lines
+PMC13381856,Supplementary Fig. S6e,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1; legend in SI"
+PMC13381856,Supplementary Fig. S6f,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1; legend in SI"
+PMC13381856,Supplementary Fig. S6g,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1; legend in SI"
+PMC13381856,Supplementary Fig. S6h,FALSE,in vitro proliferation,L1,"days 1-7, normalised to 1, 6 replicates per sgRNA; legend in SI"
+PMC13381856,Supplementary Fig. S6i,FALSE,in vitro proliferation,L1,"hours 24-96, normalised to 1; legend in SI"
+PMC13381856,Supplementary Fig. S6j,FALSE,in vitro proliferation,L1,"days 1-7, normalised to 1, 6 replicates per sgRNA; legend in SI"
+PMC13534692,Figure 1,TRUE,volume,L1,"Fig 1A-C s.c. 4T1/Panc02/B16-F10 tumour volume per mouse, NMM/NP/P columns, 4-7 time points"
+PMC13534692,Figure 3,FALSE,flow cytometry,L1,"immune cell percentages per mouse, single endpoint per group"
+PMC13534692,Figure5,FALSE,in vitro / flow / nodule counts,L1,"co-culture %, CD8 counts, lung nodules; no growth time course"
+PMC13534692,Figure7,FALSE,human serum / in vitro,L2,human peripheral blood and in vitro adenosine dose series
+PMC13534692,Figure S3,TRUE,volume,L1,"Fig S3C tumour volume per mouse Control vs ADO, 7 time points; other panels tumour weight, nodules, survival, in vitro"
+PMC13534692,Figure S9,FALSE,nodule counts / flow,L1,endpoint metastasis counts and flow
+PMC13534692,Figure S10,FALSE,blood counts / in vitro,L1,haematology and in vitro ratios
+PMC13534692,mouse_metabolomic_data,FALSE,metabolomics,L0,metabolite table
+PMC13434853,Fig.2j,FALSE,flow cytometry,L1,"p21/PD-L1/CD8 % at 3 time points post RT, not growth readout"
+PMC13434853,Fig.3l,TRUE,volume,L1,"Panc02 tumour volume per mouse, 4 arms, many time points"
+PMC13434853,Fig.4d,FALSE,in vitro fluorescence,L1,nanoparticle pH profile
+PMC13434853,Fig.4f,FALSE,in vitro release,L1,drug release kinetics
+PMC13434853,Fig.4m,FALSE,biodistribution fluorescence,L2,"ICG fluorescence in tumour/organs over hours, not tumour growth"
+PMC13434853,Fig.4p,FALSE,drug concentration,L2,intratumoral BRD4d over hours
+PMC13434853,Fig.5b,TRUE,volume,L1,per-mouse Panc02 tumour volume G1-G6 (panel labelled averaged but sheet holds individual values)
+PMC13434853,Fig.5c,TRUE,volume,L1,"individual tumour growth curves G1-G6, same mice as Fig.5b"
+PMC13434853,Fig.5g,FALSE,flow cytometry,L1,single endpoint p21+ %
+PMC13434853,Fig.5i,FALSE,flow cytometry,L1,single endpoint CD8 %
+PMC13434853,Fig.5j,FALSE,flow cytometry,L1,single endpoint IFN-g CD8 %
+PMC13434853,Fig.5k,FALSE,flow cytometry,L1,single endpoint ratio
+PMC13434853,Fig.5m,FALSE,flow cytometry,L1,single endpoint TEM %
+PMC13434853,Fig.7d,FALSE,spectra,L0,fluorescence spectra in vitro
+PMC13434853,Supplementary Fig. S7a,FALSE,flow cytometry,L1,4T1 flow % at 3 time points post RT
+PMC13434853,Supplementary Fig. S20a,TRUE,volume,L1,"Panc02 tumour volume per mouse, PBS/BRD4d/RT+PBS/RT+BRD4d (individual curves matching Fig.3l)"
+PMC13434853,Supplementary Fig. S26a,FALSE,in vitro size,L1,nanoparticle number % over hours
+PMC13434853,Supplementary Fig. S35a,TRUE,volume,L1,tumour volume per mouse G1-G6
+PMC13434853,Supplementary Fig. S37d,TRUE,BLI,L3,"orthotopic Panc02-Luc bioluminescence per mouse, 3 arms, 5 time points (methods confirm BLI tumour burden)"
+PMC13369984,Fig. 2d,FALSE,turbidity,L0,polymer LCST in vitro
+PMC13369984,Fig. 2i,FALSE,MD simulation,L0,simulation time series
+PMC13369984,Fig. 3e,FALSE,fluorescence lifetime,L0,spectrofluorometer decay
+PMC13369984,Fig. 4a,FALSE,particle size,L0,DLS size distribution
+PMC13369984,Fig. 7f,FALSE,particle size,L1,micelle stability in vitro
+PMC13369984,Fig. 8a,TRUE,volume,L1,"MDA-MB-231 tumour volume per mouse, Genexol-PM/PEG-PBuSEA/Control"
+PMC13369984,Fig. 8c,TRUE,volume,L1,"4T1 tumour volume per mouse, 3 arms"
+PMC13369984,Fig. 8f,TRUE,volume,L1,"MDA-MB-231 tumour volume per mouse, 4 arms"
+PMC13369984,Fig. 8i,FALSE,body weight,L1,per-mouse body weight
+PMC13369984,Fig. 8j,TRUE,volume,L1,"CT26 tumour volume per mouse, 4 arms on sheet"
+PMC13369984,Supplementary Fig. 31,FALSE,particle size,L0,DLS size distributions
+PMC13369984,Supplementary Fig. 33,FALSE,particle size,L0,DLS size distributions
+PMC13369984,Supplementary Fig.  46,FALSE,particle size,L0,DLS size distributions
+PMC13369984,Supplementary Fig. 51,FALSE,in vitro release,L1,cumulative drug release
+PMC13369984,Supplementary Fig. 54a,FALSE,biodistribution,L1,PTX organ concentration at single times
+PMC13369984,Supplementary Fig. 55a.,TRUE,volume,L1,"tumour volume per mouse, Control/PEG-PBuSEA/PTX/Genexol-PM/PEG-PBuSFO/PTX, 8 time points"
+PMC13369984,Supplementary Fig. 58a,TRUE,volume,L1,"tumour volume per mouse Control vs Taxol, 8 time points"
+PMC13623844,FigS1e,FALSE,IHC area per field,L1,"columns 1-10 are microscopy fields per mouse (area, Average), CC3 IHC quantification, not time points"
+PMC13590516,Fig.5,TRUE,volume,L2,"5b MOC1-R and 5c 4T1-R tumour volume per mouse x days, 4 arms; other panels flow cytometry"
+PMC13590516,Fig.6,FALSE,in vitro viability/GSH,L2,"in vitro CCK-8 dose response, GSH ratio, cell death"
+PMC13590516,Fig.7,TRUE,volume,L2,7f MOC1-R and 7g 4T1-R tumour volume per mouse over 7 days; other panels in vitro and flow
+PMC13590516,Fig.8,TRUE,volume,L2,8d primary and 8e distant tumour volume per mouse over 8 days; 8b survival events; 8i single endpoint volume
+PMC13590516,Supplementary Fig. 1,TRUE,volume,L1,two tumour volume blocks Control vs IR per mouse over 7 days; legend in SI not found; also in vitro clonogenic survival block
+PMC13590516,Supplementary Fig. 7,FALSE,in vitro release,L1,"time in hours, triplicate in vitro measurements"
+PMC13590516,Supplementary Fig. 11,FALSE,in vitro ICD markers,L1,HMGB1/ATP/LDH/HSP70 single endpoint
+PMC13590516,Supplementary Fig. 15,FALSE,in vitro copper content,L1,"time in hours, triplicates, in vitro"
+PMC13590516,Supplementary Fig. 22,TRUE,volume,L1,"two tumour volume blocks, 4 arms x 5 mice over 6 days"
+PMC13590516,Supplementary Fig. 23,TRUE,volume,L1,"two tumour volume blocks, 4 arms x 5 mice over 6 days"
+PMC13590516,Supplementary Fig. 24,TRUE,volume,L1,"two tumour volume blocks sgNC/sgFDX1 +/- IR+COF, per mouse over days"
+PMC13590516,Supplementary Fig. 28,FALSE,in vitro cell death,L1,"MOI dose rows, in vitro"
+PMC13590516,Supplementary Fig. 32,TRUE,volume,L1,"two tumour volume blocks, 8 arms per mouse over 5-6 days"
+PMC13590516,Supplementary Fig. 34,FALSE,blood panel,L1,haematology and serum chemistry single endpoint
+PMC13590516,Supplementary Fig. 38,TRUE,volume,L1,"tumour volume per mouse, 8 arms (depletion), 5 days"
+PMC13396336,Fig 1 ,TRUE,volume,L2,1b CT26 and 1c CT26 UFL1 tumour volume per mouse over 5-6 days; tumour weight and in vitro panels also present
+PMC13396336,Fig 2,TRUE,volume,L2,"2d CT26, 2e MC38, 2f LLC-1 +/- anti-CD8, 2g/2h nude mice tumour volume per mouse; 2a-c human data"
+PMC13396336,Fig 3,TRUE,volume,L2,"3c CT26 tumour growth per mouse over 6 days; 3a flow, 3b ex vivo killing"
+PMC13396336,Fig 4 ,FALSE,in vitro lectin MFI,L2,flow cytometry of CT26 cells in vitro
+PMC13396336,Fig 7 ,TRUE,volume,L2,"7b LLC-1 +/- ICB and 7c CT26 +/- MKC8866 tumour volume per mouse at 4 time points; 7a ex vivo killing, 7d in vitro"
+PMC13346474,Figure 3,TRUE,volume,L2,3A-F xenograft/PDX tumour volume per mouse rows x study days
+PMC13346474,Figure 4,TRUE,volume,L2,4A-D combination xenograft tumour volume per mouse x study days; 4A and 4B share vehicle/mono arms
+PMC13346474,Figure 5,TRUE,volume,L2,5H-K in vivo tumour volume per mouse x study days; 5A-G in vitro
+PMC13346474,SF2,FALSE,body weight,L1,absolute body weight per mouse; sheet label says body weight
+PMC13346474,SF 3,FALSE,% inhibition,L1,"per cell line % inhibition at hours with p-values, replicate columns per time, not per-animal growth"
+PMC13346474,SF4,TRUE,volume,L1,four blocks absolute tumour volume per mouse x study days; SI legend not retrieved
+PMC13346474,SF5,FALSE,body weight,L1,all blocks absolute body weight
+PMC13346474,SF 7,FALSE,in vitro,L1,"7a empty (image), 7B-D in vitro dose response"
+PMC13346474,SF8,TRUE,volume,L1,alternating blocks: tumour volume (same series as Fig 5H-K plus sotorasib arm) and body weight
+PMC13346474,SF9,FALSE,body weight,L1,all blocks body-weight-scale values (~20-27 g) even where label reads Absolute Cell
+PMC13346474,SF 10,FALSE,in vitro,L1,dose response in cell lines
+PMC13346474,ST 3,TRUE,volume,L1,"supplementary table of per-mouse tumour volume by model (H358, H1373, SW1463, MiaPaca-2, EL3187) x days"
+PMC13039874,Fig.2c,FALSE,in vitro proliferation,L2,CAR-T/UNT cells in vitro at 24h/72h
+PMC13039874,Fig.2f,FALSE,in vitro cytotoxicity,L2,"Incucyte real-time co-culture over hours, biological replicates"
+PMC13039874,Fig.3b,FALSE,western blot quantification,L2,in vitro pulldown densitometry
+PMC13039874,Fig.5c,FALSE,ELISA in vitro,L2,cytokines from co-culture supernatants
+PMC13039874,Fig.6b,TRUE,volume,L2,"6b MC38 tumour growth per mouse over days 0-16, several arms (vehicle, TAIII doses, AZD4635)"
+PMC13039874,Fig.6g-h,TRUE,volume,L2,"6g-h MC38 combination study tumour size per mouse over 12 time points, n=6 mice"
+PMC13039874,Fig.6n,FALSE,flow/IHC single endpoint,L2,per-mouse single endpoint values by arm
+PMC13039874,Fig.S9c,TRUE,volume,L1,"per-mouse tumour growth vehicle vs TAIII-5-QD over 12 time points; SI legend not retrieved, text places Supp Fig 9 among immunocompetent xenograft models"
+PMC13039874,Fig.S12f,FALSE,flow cell counts,L1,T cell counts single endpoint
+PMC13039874,Fig.S14b,TRUE,BLI,L3,"per-mouse Raji-Luc burden normalised to day 0 at days 0/10/14/18, vehicle vs TAIII in NSG (text: Supp Fig 14a-c Raji growth; methods: non-invasive bioluminescence model)"
+PMC13039874,Fig.S15c,TRUE,BLI,L3,"per-mouse log10 luminescent Nalm6-Luc burden at days 5-19, dTreg-CAR-T +/- TAIII (text: Supp Fig 15b,c tumour suppression)"
+PMC13462697,Figure 2,FALSE,metastasis counts / flow cytometry,L1,"lung metastasis counts and immune-cell percentages, single endpoint per mouse"
+PMC13462697,Figure 3,FALSE,in vitro uptake / flow / metastasis counts,L1,single-endpoint panels and flow cytometry; no time course
+PMC13462697,Figure 4,FALSE,flow / qPCR / human IHC,L1,single-endpoint panels and gene expression; no time course
+PMC13462697,Figure 6,FALSE,in vitro qPCR / RIP / mRNA decay,L1,in vitro panels; hour time course is mRNA stability
+PMC13462697,Supplementary figure 1,FALSE,qPCR / scRNA proportions,L1,gene expression and single endpoints
+PMC13462697,Supplementary figure 3,TRUE,volume,L3,"panel S3A: per-mouse tumour volume days 7-22, WT vs Ifnar1cKO (6+6); legend in SI PDF, methods state caliper volume every 2-3 days"
+PMC13462697,Supplementary figure 4,TRUE,volume,L3,"panel S4U: per-mouse tumour volume days 7-22, WT vs VldlrcKO (6+6); legend in SI PDF, methods state caliper volume"
+PMC13462697,Supplementary figure 5,FALSE,in vitro / flow / metastasis counts,L1,single endpoints and in vitro panels
+PMC13462697,Supplementary figure 6,TRUE,volume,L3,"panel S6D: per-mouse tumour volume days 7-22, WT vs Cd155cKO (6+6); legend in SI PDF, methods state caliper volume"
+PMC13462697,Supplementary figure 9,FALSE,in vitro / single endpoints,L1,in vitro dose response and single-endpoint panels
+PMC13385831,Figure 2,FALSE,in vitro,L1,in vitro dose-response and cell assays
+PMC13385831,Figure 4,TRUE,volume,L2,"panels h (LLC NC/Hamp1-g1/g2, n=6) and p (B16 Control/Hamp1 OE, n=6): per-mouse tumour growth curves"
+PMC13385831,Figure 5,TRUE,volume; BLI,L2,panels b (SID/HID) and i (Control/DFP) per-mouse volume; panel r Control/DFP weekly ID8 readout to day 56
+PMC13385831,Figure 6,TRUE,volume,L2,"panels f (UTD/Control/Fer-1 CAR-T) and r (UTD/Control/Slc40a1OE CAR-T) per-mouse tumour growth; j/k in vitro, t body weight"
+PMC13385831,Supplementary Figure 2,FALSE,in vitro,L1,in vitro cell assays
+PMC13385831,Supplementary Figure 3,FALSE,in vitro,L1,cell lines and in vitro assays
+PMC13385831,Supplementary Figure 4,FALSE,in vitro,L1,T-cell culture time courses (days 0-3) in vitro
+PMC13385831,Supplementary Figure 5,TRUE,volume,L3,"panel k NC/Hamp1-g1/g2 and panel p Control/Hamp1OE per-mouse tumour volume; legend in SI PDF, methods caliper volume"
+PMC13385831,Supplementary Figure 6,TRUE,volume,L3,panel b SID/HID and panel i Control/DFP per-mouse tumour volume; a/h/o are body weight; legend in SI PDF
+PMC13385831,Supplementary Figure 7,TRUE,volume,L3,panel q UTD/Control/Slc40a1OE and panel w per-mouse tumour volume; legend in SI PDF
+PMC13473648,Fig. 3,TRUE,volume,L2,"panels d, e, i, j: per-mouse EO771 tumour growth (animals I-V/VI per arm); legend confirms tumour growth"
+PMC13473648,Fig. 4h,FALSE,flow cytometry,L1,immune-cell percentages per mouse; single endpoint
+PMC13473648,Fig. 5e-l,TRUE,volume,L2,"panel l: per-mouse EO771 tumour growth, 4 arms (IgG/anti-CXCL9 x WT/Aldh2-/-)"
+PMC13473648,Fig. 6,TRUE,volume,L2,"panel l: per-mouse tumour growth after BMDM transfer, vehicle vs EPZ-6438"
+PMC13473648,Fig. 8,TRUE,volume,L2,"panels a (EO771, anti-PD1) and e (MC38, anti-CTLA4): per-mouse tumour growth, 4 arms each; survival side tables not counted"
+PMC13473648,Fig. 9,TRUE,volume,L2,"panels e, r, s: per-mouse EO771 tumour growth (vehicle/DSF)"
+PMC13473648,Supplementary Fig. 4,TRUE,volume,L3,three per-mouse tumour growth panels (WT/ALDH2-/- x2; 4-arm IgG/anti-CD8); legend in SI PDF
+PMC13473648,Supplementary Fig. 5,TRUE,volume,L3,two per-mouse tumour growth panels (ALDH2f/f/cKO/-/-; ALDH2f/f/cKO); legend in SI PDF
+PMC13473648,Supplementary Fig. 7,TRUE,volume,L3,"one per-mouse tumour growth panel, 4 arms IgG/anti-CXCL9 x WT/ALDH2-/-; legend in SI PDF"
+PMC13473648,Supplementary Fig. 10,TRUE,volume,L3,three per-mouse tumour growth panels (Veh/DSF; cKO vs cKO+DSF; iDTR 4 arms); legend in SI PDF
+PMC13351034,Figure 3,TRUE,volume,L2,"panels a (Esr1fl/fl vs cKO, days 0-9), c, d, g: per-mouse tumour volume; legend says tumour volumes measured longitudinally"
+PMC13351034,Figure 4,FALSE,in vitro,L2,in vitro DC assays; no in vivo panel
+PMC13351034,Supplementary Figure 2 ,FALSE,flow / ELISA,L1,single-endpoint DC phenotyping
+PMC13351034,Supplementary Figure 3,TRUE,volume,L3,"two per-mouse tumour volume panels (DPBS/siNC/siEsr1 DC, n=6 and n=5 per sheet headers), values identical to Figure 3c/3d; legend in SI PDF"
+PMC13234118,Figure4,FALSE,in vitro / qPCR,L1,bacterial cytotoxicity and transcript levels
+PMC13234118,Figure6,TRUE,volume,L2,"panel c: per-mouse B16F10 tumour volume (M1-M4) for 7 arms, days 0-14, with Average/SD columns beside; panel e is body weight"
+PMC13234118,Supplementary Fig 2,FALSE,bacterial culture,L1,prodigiosin yield and bacterial growth curves in vitro
+PMC13234118,Supplementary Fig 4,FALSE,in vitro temperature,L1,photothermal temperature over seconds
+PMC13234118,Supplementary Fig 15,FALSE,qPCR,L1,transcript levels
+PMC13234118,Supplementary Fig 17,FALSE,in vitro temperature,L1,photothermal temperature over seconds
+PMC13234118,Supplementary Fig 18,TRUE,volume,L3,"panels a-f per-mouse tumour volume (4 mice per arm, days 1-11); panel g body weight; legend in SI PDF, methods caliper volume"
+PMC13234118,Supplementary Fig 29,FALSE,blood counts,L1,haematology at three time points with replicates; not tumour readout
+PMC13234118,Supplementary Fig 32,TRUE,volume,L3,same layout as Figure 6c: per-mouse tumour volume M1-M4 for 7 arms; legend in SI PDF
+PMC13234118,Supplementary Fig 33,TRUE,volume,L3,"per-mouse tumour volume M1-M4, KP101 and CMC arms, days 0-14; legend in SI PDF"
+PMC13493952,"Fig2b,c,e,f-h",FALSE,flow cytometry frequencies/counts,L2,"per-animal flow endpoints (ILC1/cNK frequencies, Ki67, caspase); no time course, no tumour readout"
+PMC13415869,Fig. 1g-o,TRUE,volume,L2,"Fig. 1j-l per-mouse tumour growth curves, 4+ days; also gH2AX and survival blocks on the same sheet"
+PMC13415869,"supplementary Fig. 1c-g, i",TRUE,volume,L1,"per-mouse CT26/LLC1 growth curves over d1-13+; plus body weight, survival, blood counts"
+PMC13415869,"Fig. 3d, f, g, h",TRUE,volume,L2,Fig. 3g/3h per-mouse growth curves (iERT vs iERT+aGM1/aNK1.1 vs untreated) over 4+ days
+PMC13415869,"supplementary Fig. 3e,f,g,i,j",TRUE,volume,L1,contains per-mouse growth curves over d1-22 plus flow panels and survival
+PMC13415869,supplementary Fig. 4c-h,TRUE,volume,L1,supp 4h per-mouse growth curves d0-13 (LDRT/SBRT +/- aIFNAR1); other panels are omics/cytokine
+PMC13415869,"Fig. 5c, e-l",TRUE,volume,L2,Fig. 5e and 5l per-mouse growth curves over 4+ days
+PMC13415869,"supplementary Fig. 5b,c,e,f,h",TRUE,volume,L1,per-mouse growth curves d0-13 for LDRT/SBRT +/- aXCL1 plus density and EV panels
+PMC13415869,"Fig.6c,d,g,i",TRUE,volume,L2,Fig. 6g per-mouse growth curves d0-22 across four arms
+PMC13473480,Supplementary Figure 5b,FALSE,in-vitro colony/invasion counts,L2,SW480 and HCT116 cell-line assays with bacterial isolates
+PMC13473480,Figure 2b,FALSE,human stool collagenase activity,L2,"per-patient human samples, two timepoints only"
+PMC13385908,Figure 1L-M,FALSE,"flow cytometry (%NKG7, MFI)",L2,"per-mouse thymic flow values, single timepoint"
+PMC13385908,Figure 3B-D,TRUE,volume,L2,"per-mouse tumour volume, one column per mouse, many days (MC38, B16-OVA, B16-F10)"
+PMC13385908,Figure 3E-T,FALSE,flow cytometry frequencies,L2,per-mouse TIL frequencies at one timepoint
+PMC13385908,Figure 4I-J,TRUE,volume,L2,Fig. 4I per-mouse B16-OVA growth over d0-28; 4J is survival
+PMC13385908,Figure 6A-F,FALSE,"flow cytometry (%GFP+, subsets)",L2,"per-mouse spleen/thymus/tumour flow, single timepoint"
+PMC13385908,Figure 7B-E,TRUE,volume,L2,Fig. 7B-D per-mouse tumour volume across many days post challenge
+PMC13385908,Figure 7F-T,FALSE,flow cytometry frequencies,L2,"per-mouse frequencies at week 1/3 (and baseline-week3); immune phenotype, not tumour"
+PMC13385908,Supplementary Fig. 10A-T,FALSE,flow cytometry frequencies/MFI,L1,per-mouse splenic/thymic phenotype by week; not a tumour readout
+PMC13376159,Figure 1,TRUE,volume,L2,Fig. 1c/1e/1g per-mouse tumour volumes at d5-15 (6 points) in Rag1-/- and B6 hosts
+PMC13376159,Figure 5,TRUE,volume,L2,Fig. 5l per-mouse tumour volume d7-15; other panels in vitro/flow
+PMC13376640,Fig. 6p,FALSE,in-vitro EMSA binding,L2,"recombinant ADAR1/dsRNA, concentration series"
+PMC13376640,Fig. 7a,FALSE,in-vitro editing frequency,L2,"recombinant protein time course, not animals"
+PMC13376640,Fig. 7j,FALSE,in-vitro editing frequency,L2,"recombinant ADAR1 variants, in vitro"
+PMC13376640,Supplementary Fig. 7g,TRUE,volume,L1,"per-mouse tumour volume for EO771, PY230 and B16F10, WT vs Alox12-KO, many days"
+PMC13376640,Supplementary Fig. 11f,FALSE,in-vitro fluorescence kinetics,L1,"normalised intensity vs seconds, biophysical assay"
+PMC13376640,Supplementary Fig. 11l,FALSE,in-vitro binding ratio,L1,protein variants vs dsRNA amount
+PMC13376640,Supplementary Fig. 12d,FALSE,in-vitro IFN levels,L1,cell-based IFN-alpha/beta with vehicle vs 12-HETE
+PMC13376640,Supplementary Fig. 12h,FALSE,in-vitro intensity vs concentration,L1,"concentration series, not animals"
+PMC13376569,Fig. 1 ,FALSE,nanoparticle characterisation / in-vitro release,L2,"zeta potential, size, release over hours; no animals"
+PMC13376569,Fig. 6,FALSE,endpoint tumour area and immune readouts,L2,per-animal single-timepoint endpoints across treatment groups
+PMC13376569,Fig. 7,FALSE,endpoint tumour area and immune readouts,L2,per-animal single-timepoint endpoints (liver metastasis study)
+PMC13376569,Fig. S12,FALSE,per-animal endpoint ELISA,L1,"single timepoint, 3 per group"
+PMC13376569,Fig. S18,FALSE,in-vitro release/absorbance kinetics,L1,"concentration series over minutes, no animals"
+PMC13376569,Fig. S23,FALSE,per-animal endpoint assays,L1,single-timepoint cytokine/immune values
+PMC13254117,Figure7,FALSE,"in-vitro dose-response, caspase and cell counts",L2,IMR90 cell assays and per-field GFP+/betagal+ counts; no per-animal time course
+PMC13254117,Figure 9,FALSE,"body weight, tumour number, liver weight",L2,per-mouse endpoint values and group-mean weight curve
+PMC13254117,SupFig16,FALSE,nuclear intensity in cells,L1,"per-cell/per-nucleus intensities, in vitro"
+PMC13254117,SupFig17,FALSE,in-vitro viability,L1,"drug/inhibitor panel on cells, replicates R1-R3"
+PMC13234355,Supplementary Fig 1B,FALSE,in-vitro transduction %,L1,cell-line targeting specificity panel
+PMC13234355,Supplementary Fig 3B,FALSE,in-vitro transduction % over days,L1,"virus dose vs day on cells, not animals"
+PMC13230736,Sheet1,TRUE,volume,L1,"F1J/F1K/F2K/F2L/F4H hold per-mouse tumour volume at days 6,9,12,15,18; sheet also carries human cohort and in-vitro panels"
+PMC13365562,Fig. 3e,TRUE,volume,L1,"one column per mouse (#1-#5), tumour size d0-d50, three arms"
+PMC13365562,Fig. 6e,FALSE,in-vitro ICD ELISA,L2,"HSP70/CRT/HMGB1 in supernatant, exp1-3"
+PMC13365562,Supplementary fig. 12 ,TRUE,volume,L1,"per-mouse tumour size d0-d25, four arms of five mice"
+PMC13365562,Supplementary fig. 13 ,TRUE,volume,L1,"per-mouse tumour size d0-d25, four arms; survival block follows"
+PMC13365562,Supplementary fig. 20 ,TRUE,volume,L1,"per-mouse tumour size d0-d25, seven depletion arms of five mice"

@@ -1,0 +1,14 @@
+{
+ "members": 22,
+ "papers": 19,
+ "parsed": 22,
+ "walls": 0,
+ "members_with_accepted_sheets": 15,
+ "papers_that_would_flip": 6,
+ "accepted_sheets_total": 84,
+ "seconds_median": 0.4,
+ "seconds_max": 147.1,
+ "unit": "tabular MEMBERS over the cap, and the papers holding them",
+ "cap_mb": 40,
+ "note": "The cap is NOT changed by this study. A member that could not be parsed is a wall, not an empty file."
+}

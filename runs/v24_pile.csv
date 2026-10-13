@@ -1,0 +1,7 @@
+pmcid,file,sheet,n,pts,hdr,signature,note,verdict_human,notes
+PMC9498964,pbio.3001753.s002.xlsx,S5_Data. Tumors (Fig 1) ,23,7,,aggregate vocabulary in the header region (mean/SEM/n=),fold=3.1,,
+PMC11393413,44321_2024_105_MOESM6_ESM.xlsx,HCT15 NTC oxa vs TKO oxa,16,5,v,transcriptomics,fold=6.0,,
+PMC11393413,44321_2024_105_MOESM8_ESM.xlsx,Sup. peptides in NTC and TKO cl,5,4,i,,fold=2.0,,
+PMC13006418,mmc4.xlsx,Supplementary table 5,78,5,,,fold=3.3,,
+PMC13470249,41467_2026_75065_MOESM4_ESM.xlsx,Fig. 4a,9,4,,,fold=1.8,,
+PMC9498964,pbio.3001753.s003.xlsx,OCR (oligo rotenone) (Fig 4F),17,5,t,,fold=2.6,,

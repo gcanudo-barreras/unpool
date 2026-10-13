@@ -1,0 +1,174 @@
+pmcid,sheet,verdict,readout,rung,note
+PMC13545235,2.4_SenHvsSenL-gsea_senescence,FALSE,GSEA enrichment table,L1,"gene-set enrichment statistics, no animals"
+PMC13590603,Fig. 3,TRUE,"tumour volume (calipers, LxW2/2)",L2,"per-mouse volumes by day of treatment, YUMM5.2/YUMM1.7 syngeneic arms vehicle, D/T, D/T+nilotinib"
+PMC13590603,Fig. 5,TRUE,tumour volume,L2,"per-mouse volumes by day, D/T vs D/T+nilo, vector vs chemokine-OE YUMM5.2"
+PMC13590603,Fig. 6,FALSE,flow cytometry percentages,L2,"single-endpoint immune-cell frequencies per mouse, no time axis"
+PMC13590603,Fig. 7,TRUE,tumour volume,L2,"7e,f per-mouse volumes by day, D/T-PBS vs D/T+Nilo IgG vs anti-CD8 depletion; 7d is a cell ratio"
+PMC13590603,Fig. S7,TRUE,tumour volume (inferred from values and paper method),L2,"legend in SI PDF; per-mouse series days 0-27 IgG isotype vs anti-Ly6 on 5.2P tumours, magnitudes match caliper volumes"
+PMC13590603,FIG. S9,FALSE,flow cytometry percentages,L2,"Ly6C/Ly6G/macrophage percentages in blood/spleen, endpoint only"
+PMC13582972,SuppFig5A,FALSE,TF activity statistics,L1,"per-TF NES summary statistics by cohort, no animals or time"
+PMC13582972,VIPER_TRactivity_PDXs,FALSE,VIPER TF activity,L1,"TF-by-PDX-sample activity matrix, omics"
+PMC13578219,Fig.2,FALSE,bacterial culture OD/fluorescence,L2,"in vitro bacterial growth curves in hours, triplicate cultures"
+PMC13578219,Fig.5,FALSE,"in vitro (DLS, release, bacterial OD)",L2,"nanoparticle size, drug release and bacterial culture curves in hours; no animals"
+PMC13578219,Fig.6,TRUE,tumour volume,L2,"6C/6D per-mouse B16F10 volumes days 0-10, groups G1 PBS..G6 (n=5); 6B is body weight"
+PMC13578219,Fig.9,TRUE,tumour volume,L2,"9B,D per-mouse 4T1 volumes days 0-21, six groups n=5"
+PMC13578219,Fig.10,TRUE,tumour volume; BLI,L2,10C per-mouse 4T1-luc volumes days 0-21 and 10E per-mouse bioluminescence; 10B body weight
+PMC13578219,Fig.S29,TRUE,tumour volume (inferred from values; SI legend),L2,S29D per-mouse series days 0-21 groups G1-G6 matching main-figure design; S29B is an in vitro dose curve
+PMC13575198,Figure2,FALSE,macropinocytosis quantification,L2,"endpoint per-sample uptake values by treatment and cell line, no time axis"
+PMC13575198,Supplementary figure 2,FALSE,in vitro metabolite/uptake assays,L2,endpoint in vitro assays and minute-scale kinetics; no in vivo growth series
+PMC13575198,Figure 4,FALSE,CRISPR screen / proteomics tables,L1,MAGeCK gene-level statistics and lactylation sites
+PMC13575198,Figure 6,FALSE,"in vitro uptake, colony, cell cycle, metabolomics",L2,all panels in vitro endpoints
+PMC13575198,Supplementary figure 7,FALSE,in vitro assays,L2,"uptake ratios, hourly in vitro kinetics, colony counts; no animals"
+PMC13575198,Figure 8,TRUE,tumour volume,L2,"8c/8h per-mouse HT29 volumes days 1-21/27 by arm, 8n weekly; sheet note says Day 1 is a common pre-allocation baseline copied into every arm, so day 1 is not per-animal"
+PMC13562552,Figure 3e,FALSE,in vitro cell growth,L2,"HepG2 growth curve in hours, N=4 independent experiments"
+PMC13562552,Figure 3h,TRUE,tumour volume,L2,"per-mouse HepG2 xenograft volumes days 7-35, Ctrl/LAP1/LIP, N=8 mice"
+PMC13562552,Figure 5c,FALSE,Seahorse ECAR,L2,"extracellular acidification in minutes, in vitro"
+PMC13562552,Figure 5e,FALSE,in vitro cell growth,L2,"HepG2 growth curve in hours, N=4 experiments"
+PMC13562552,Figure 5f,TRUE,tumour volume,L2,"per-mouse HepG2 xenograft volumes days 7-35, Ctrl/KO/KO+LAP/KO+LIP, N=6"
+PMC13562552,Figure 6a,TRUE,tumour volume,L2,"per-mouse xenograft volumes days 7-35, Ctrl/LAP1/LAP1+HRAS-KD, N=5"
+PMC13562552,Figure 7f,FALSE,in vitro cell growth,L2,HepG2 +/- ST101 growth curve in hours
+PMC13562552,Extended Data Fig.5a,FALSE,relative expression time course,L2,"LAP/LIP/GLUT1/LDHA fold-change normalised to 1 at time 0, triplicate, gene expression not tumour growth"
+PMC13562552,Extended Data Fig.9c,FALSE,Seahorse ECAR,L2,minute-scale ECAR in vitro
+PMC13562552,Extended Data Fig.9e,FALSE,in vitro cell growth,L2,"growth curve in hours, triplicates"
+PMC13530216,Fig. 1g,FALSE,kinase inhibition dose-response,L2,biochemical activity vs log concentration
+PMC13530216,Fig. 3e,FALSE,LDH release dose-response,L2,"in vitro, concentration axis"
+PMC13530216,Fig 7a,TRUE,tumour volume,L2,"per-mouse Ba/F3-FGFR2 V565F volumes days 0-14, vehicle n=5 and three drugs n=6, with Avrg/SD/SEM columns beside"
+PMC13530216,Fig 7e,TRUE,tumour volume,L2,"per-mouse Ba/F3-FGFR2 M538I volumes days 0-11, vehicle/lirafugratinib/LC-F2-1 n=6"
+PMC13493945,Figure 4,FALSE,in vitro cytolysis,L2,"E:T ratio and antibody concentration axes, triplicate cultures"
+PMC13493945,Figure 5,TRUE,bioluminescence total flux,L2,per-mouse BLI of engrafted Nalm6 (autoantibody-secreting leukaemia line) days 1-20 by arm; definitional: tumour-line burden in an autoimmunity model
+PMC13493945,Figure S5,TRUE,bioluminescence total flux,L2,"panels c,d per-mouse BLI of engrafted G10 hybridoma days 1-19, n=5; same definitional caveat as Figure 5"
+PMC13493945,Figure S6,FALSE,"grip strength, body weight, cytolysis",L2,no tumour readout
+PMC13482096,Figure 3,FALSE,in vitro live-imaging area,L2,"mScarlet+ lymphoma area over hours per well, bispecific-antibody library screen"
+PMC13482096,Figure 5,TRUE,tumour volume (calipers),L2,"5b per-mouse Raji volumes days 9-43, PBS/rituximab/WTa2d1xCD38/combination n=5"
+PMC13562681,Fig.S1c,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse at day 7, endpoint"
+PMC13562681,Fig.s1h,FALSE,T-cell exhaustion flow markers,L2,endpoint flow MFI per mouse
+PMC13562681,Fig.1b,TRUE,bioluminescence,L2,"per-mouse BLI of orthotopic SB28 GBM days 6-38, unresected vs resected"
+PMC13562681,Fig.1h,FALSE,TREM2+ cell counts (histology),L2,"counts per section at D1 and D7, not a growth series"
+PMC13562681,Fig.2e,FALSE,flow cytometry subsets,L2,in vitro wells at 24h/72h
+PMC13562681,Fig.s3b,TRUE,bioluminescence,L2,"per-mouse BLI unresected vs resected days 6-27+, second GBM model (legend in SI)"
+PMC13562681,Fig.s3h,FALSE,flow cytometry percentages,L2,"lymphoid subsets per mouse, endpoint"
+PMC13562681,Fig.s5a,FALSE,flow cytometry percentages,L2,"TREM2+ % of myeloid subsets per mouse, endpoint"
+PMC13562681,Fig.s5b,FALSE,flow cytometry percentages,L2,"TREM2+ % of myeloid subsets per mouse, CT2A, endpoint"
+PMC13562681,Fig.s6c,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse, endpoint"
+PMC13562681,Figs6d,FALSE,flow cytometry percentages,L2,"TREM2+ subsets per mouse, endpoint"
+PMC13562681,Fig.s7d,FALSE,flow cytometry percentages,L2,"TREM2+ subsets per mouse, endpoint"
+PMC13562681,Fig.s8d,FALSE,flow cytometry percentages,L2,"lymphoid subsets per mouse, endpoint"
+PMC13562681,Fig.s10a,FALSE,qPCR,L2,Ct values per sample by condition
+PMC13562681,Fig.s10c,FALSE,in vitro co-culture kinetics,L2,"CAR-T vs SB28 co-culture signal over hours, wells"
+PMC13562681,Fig.s10d,FALSE,in vitro co-culture kinetics,L2,"BMDM + CAR-T co-culture over hours, wells"
+PMC13562681,Fig.3b,TRUE,bioluminescence,L2,"per-mouse BLI UTD vs TREM2 CAR-T after resection, days 8-22+ (the two arms imaged on alternating days); left block is survival days"
+PMC13562681,Fig.3d,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse, endpoint"
+PMC13562681,Fig.3h,TRUE,bioluminescence,L2,"per-mouse BLI days 10,11,19,21 by condition (UTD, TREM2 CAR + isotype, + anti-Gr1); exactly 4 time points, some mice missing late points"
+PMC13562681,Fig.3j,FALSE,flow cytometry percentages,L2,"myeloid subsets per tumour, endpoint"
+PMC13562681,Fig.s11a,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse, endpoint"
+PMC13562681,Fig.s11b,FALSE,flow cytometry percentages,L2,"TREM2+ subsets per mouse, endpoint"
+PMC13562681,Fig.s12,FALSE,flow cytometry percentages,L2,"myeloid subsets per tumour, endpoint"
+PMC13562681,Fig.4d,FALSE,flow cytometry percentages,L2,"population frequencies per mouse, endpoint"
+PMC13562681,Fig.4h,FALSE,flow cytometry percentages,L2,"CAR-T subset frequencies, endpoint"
+PMC13562681,Fig.s14,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse, endpoint"
+PMC13562681,Fig.5c,TRUE,bioluminescence,L2,per-mouse BLI days 7-28 by treatment (rows are mice); several untreated mice have only 3 points but other mice reach 5+
+PMC13562681,Fig.6e,TRUE,bioluminescence,L2,per-mouse BLI days 9-30 by treatment arm
+PMC13562681,Fig.s15,FALSE,flow cytometry percentages,L2,"myeloid subsets per mouse, endpoint"
+PMC13562681,Fig.7c,TRUE,bioluminescence,L2,"per-mouse BLI days 6-26+, resected alone vs neoadjuvant vs adjuvant GD2 CAR-T, n=10/group"
+PMC13562681,Fig.7g,FALSE,flow cytometry MFI,L2,"exhaustion markers per mouse, endpoint"
+PMC13562681,Fig.7m,FALSE,tumour area by histology,L2,single timepoint (day 10) tumour area per image
+PMC13562681,Fig.s19c,TRUE,bioluminescence,L2,"per-mouse BLI days 7-25+, UTD vs GD2 vs TREM2 CAR-T"
+PMC13562681,Fig.s19h,FALSE,flow cytometry,L2,"exhaustion markers, endpoint"
+PMC13522500,Fig.3,TRUE,tumour volume,L2,"3k per-mouse YT (NK/T lymphoma) volumes in huPBMC-NOG days 0-18, n=4/arm; day 0 entered as a single 0"
+PMC13522500,Fig.4,TRUE,tumour volume,L2,"4i per-mouse YT-R volumes days 0-21, control/anti-PD-1/chidamide/combination n=4; 4g is an in vitro IC50"
+PMC13522500,Fig.S5,TRUE,tumour volume,L2,"S5f per-mouse volumes days 0-20, IgG vs anti-PD-1 n=3 (legend in SI)"
+PMC13503689,Fig. 4A,FALSE,pulldown densitometry,L2,"gel lane quantification, biochemical"
+PMC13503689,Fig. 4F,FALSE,in vitro reporter dose-response,L2,"concentration axis, wells"
+PMC13503689,Fig. 6E,FALSE,in vitro viability dose-response,L2,concentration axis
+PMC13503689,Fig. 7B,FALSE,body weight,L2,"per-mouse weight change and raw weights, MOLT-4 model"
+PMC13503689,Fig. 7C,TRUE,bioluminescence (normalised to day 5),L2,"per-mouse BLI total flux ratios days 5-37, vehicle vs FR-027 n=10, MOLT-4 T-ALL xenograft"
+PMC13503689,Fig. 7I,FALSE,body weight,L2,"per-mouse weight change and raw weights, ID8 model (weight gain here tracks ascites, but the readout is body weight)"
+PMC13503689,Fig. 8C,TRUE,bioluminescence (normalised to day 5),L2,"per-mouse BLI ratios days 5-30+, U87-MG orthotopic, six arms"
+PMC13503689,Fig. 9C,TRUE,bioluminescence (normalised to day 5),L2,"per-mouse cranial BLI ratios, OCI-LY7 PCNSL model, six arms"
+PMC13503689,Fig. 9G,TRUE,bioluminescence (normalised to day 5),L2,"per-mouse spinal BLI ratios, OCI-LY7 PCNSL model"
+PMC13503689,Fig. 10B,FALSE,body weight,L2,"non-tumour-bearing CD-1 toxicity study, per-mouse weight change"
+PMC13503689,Supplementary Fig. 13B,FALSE,plasma pharmacokinetics,L2,drug concentration per mouse over hours
+PMC13500480,Fig.1a,FALSE,enzyme kinetics,L2,PA hydrolysis by purified PLPP3 over minutes
+PMC13500480,SMFig.7c,FALSE,enzyme kinetics,L2,in vitro hydrolysis over hours
+PMC13500480,SMFig.7d,FALSE,enzyme kinetics,L2,in vitro hydrolysis over minutes
+PMC13490547,Figure 2,TRUE,bioluminescence,L2,"2C per-mouse BLI of DND.41-effLuc T-ALL days -1 to 63, UT/LOW/HIGH CAR n=8"
+PMC13490547,Figure 5,TRUE,bioluminescence,L2,"5C per-mouse BLI days -1 to 47, UT/WT/KO LOW/HIGH CAR arms"
+PMC13490547,Figure 4,FALSE,"in vitro cytotoxicity, flow, proliferation",L2,51Cr release by CAR:T ratio and in vitro counts; no animals
+PMC13490547,Figure 6 (Nov 2025),TRUE,bioluminescence,L2,"6E per-mouse tumour BLI days -1 to 48 by mouse ID, UT/LOW WT/LOW NS"
+PMC13490547,Figure 7  (Nov 2025),TRUE,bioluminescence,L2,"7G per-mouse tumour BLI days -1 to 43, four arms; 7J per-mouse BLI Dasatinib vs vehicle"
+PMC13490547,S2,FALSE,in vitro CAR-T phenotype and accumulation,L2,donor-level flow and in vitro cell counts
+PMC13490547,S13,FALSE,"in vitro viability, necropsy flow, cytokines",L2,no tumour series
+PMC13486728,Human sample info,FALSE,human tissue-array metadata,L1,"patient age/sex/TNM per core; human data, no series"
+PMC13486728,GO term H3K27me3 loss in SCC,FALSE,GO enrichment,L1,enrichment statistics
+PMC13486728,Figure 2,FALSE,immunofluorescence intensity,L2,"per-nucleus IF intensities, endpoint"
+PMC13486728,Figure 3,FALSE,"immunofluorescence intensity, % positive",L2,endpoint histology quantification
+PMC13483867,Fig4e,FALSE,spatial marker expression,L2,"SMA/PDL1 per ROI in human tumours, endpoint"
+PMC13473660,Supp. Data 15,FALSE,CUT&Tag peak table,L1,omics differential peaks
+PMC13473660,Figure 2,TRUE,tumour volume,L2,"2b per-mouse FHSC14 SCLC PDX volumes days 0-10, sgCtrl/USP22-sg1/sg2 x saline/cis-eto, n=4-5"
+PMC13473660,Figure 3,TRUE,tumour volume,L2,"3b per-mouse JHU-LX33 PDX volumes days 0-10, Empty/USP22 x saline/cis-eto, n=8"
+PMC13473660,Supp. Fig 10,FALSE,Seahorse OCR/ECAR,L2,minute-scale in vitro kinetics
+PMC13470355,Fig. 6,TRUE,tumour volume,L2,"6g MDA-MB-231 xenograft, 6k TNBC PDX, 6m per-mouse volumes by day, n=6/arm; 6a is an in vitro dose curve"
+PMC13470355,Fig. 7,FALSE,"human cohort scores, PD-L1 expression, IHC",L2,no growth series
+PMC13470355,Fig. 8,TRUE,tumour volume,L2,"8b per-mouse 4T1 sgZNF689 volumes days 1-14, IgG/aPD-L1/olaparib/combination n=6"
+PMC13470355,Fig. S13,TRUE,tumour volume (inferred from layout matching Fig. 8b; SI legend),L2,"S13f per-mouse series days 1-14, same four arms, n=5"
+PMC13469624,Figure 1,FALSE,"human TCGA expression, tissue glutamine, qPCR",L2,patient data and endpoints
+PMC13469624,Figure 2,TRUE,tumour volume,L2,"2d-e per-mouse MC38/CT26 volumes days 7-23, five arms; 2c is body weight %"
+PMC13469624,Figure 3,TRUE,tumour volume,L4,"3n,o block lower in sheet: per-mouse MC38 volumes days 7-23 under liposome/clodronate macrophage depletion; top of sheet is flow/ELISA"
+PMC13469624,Figure 7,TRUE,tumour volume,L2,"per-mouse MC38 volumes days 7-23 for four combination studies (aPD-L1, CTLA-4, 5-FU, DC101), n=6; weights and survival alongside"
+PMC13469624,Figure S1 ,TRUE,tumour volume (inferred; SI legend),L2,S1c-d and S1i per-mouse series days 7-23 by compound; S1b and S1h are body weights
+PMC13469624,Figure S3,TRUE,tumour volume (inferred; SI legend),L2,"S3b-c per-mouse series days 7-23, five arms; S3a is relative body weight"
+PMC13469624,Figure S4,TRUE,tumour volume,L2,'Tumor volume' block per-mouse days 6-22 by arm; top panels are flow endpoints
+PMC13469624,Figure S6,TRUE,tumour volume (inferred; SI legend),L2,S6c-d and S6h-i per-mouse series by day and arm; S6b body weight
+PMC13469624,Figure S8,FALSE,in vitro viability and assays,L2,concentration axis and endpoint assays
+PMC13469624,Figure S9,FALSE,in vitro fold-change,L2,endpoint relative values
+PMC13469624,Figure S10,FALSE,in vitro macrophage assays,L2,BMDM/RAW264.7 endpoints
+PMC13469624,Figure S11,TRUE,tumour volume (inferred; SI legend),L2,"S11b-c per-mouse series days 7-23, PBS/Mdivi-1/WGF-T17/combination; S11a body weight"
+PMC13469624,Sheet1,FALSE,body weight,L2,raw and relative body weights per mouse only
+PMC13469601,Fig1,FALSE,"human plasma ELISA, IHC scores, patient survival",L2,human cohort data
+PMC13469601,Fig2,TRUE,tumour volume,L4,"2g block mid-sheet: per-mouse PANC-1+CAF volumes days 0-30, two arms n=8; 2d allograft volume not in this sheet"
+PMC13469601,Fig5,TRUE,tumour volume,L2,"5b per-mouse KRAS-mt PDX volumes days 0-35, IgG vs cetuximab n=8"
+PMC13469601,sFig6,TRUE,tumour volume (inferred; SI legend),L2,sFig6a per-mouse PANC-1+CAF co-injection volumes days 0-21 by arm
+PMC13462549,Fig 1,FALSE,"in vitro cell death, lipid peroxidation",L2,MCL cell lines
+PMC13462549,Fig 2,FALSE,in vitro cell death and assays,L2,MCL cell lines
+PMC13462549,Fig 4,FALSE,in vitro ROS and cell death,L2,cell lines
+PMC13462549,Fig 8,TRUE,bioluminescence,L4,"8i lower in sheet: per-mouse BLI of CCMCL1-R CDX days 0-22 by arm (n=3-5); day-0 values repeat identically across arms (a shared baseline), so 4 per-animal points remain; 8a primary cultures"
+PMC13462549,Fig S8,FALSE,in vitro dose-response,L2,log concentration axis
+PMC13462549,Fig S9,FALSE,in vitro competition assays and cultures,L2,"%GFP+ over days in culture, primary MCL cultures"
+PMC13463030,Fig. 2e,FALSE,in vitro CCK-8 proliferation,L2,"MDA-MB-231 relative proliferation over days, n=3 experiments"
+PMC13463030,Fig. 2i,FALSE,in vitro CCK-8 proliferation,L2,MCF7 relative proliferation
+PMC13463030,Fig. S2b,FALSE,in vitro CCK-8 proliferation,L2,relative proliferation over days in culture
+PMC13463030,Fig. S3a,TRUE,tumour volume,L2,"per-mouse volumes days 10-35, Ctrl vs TMEM216 n=10 (legend in SI; header says tumor volume)"
+PMC13463023,Figure 1,FALSE,in vitro MTT proliferation,L2,osteosarcoma cell lines by MOI over days in culture
+PMC13463023,Figure 2,TRUE,tumour volume,L2,"2d per-mouse SJSA-1 orthotopic volumes days 0-21, control vs M1 virus n=6; 2e body weight"
+PMC13463023,Figure 3,FALSE,electron microscopy quantification,L2,in vitro ER swelling by hours
+PMC13463023,Figure 5,FALSE,"patient survival, in vitro viability",L2,human KM data and cell viability over days in culture
+PMC13463023,Figure 6,FALSE,qPCR time course in vitro,L2,relative expression in cell lines over hours; lower panels are blots
+PMC13463023,Supplementary Fig. 3,TRUE,tumour volume,L4,"3f mid-sheet: per-mouse volumes days 0-22, control vs M1 virus n=6 (second model, SI legend); 3a is in vitro, 3g body weight"
+PMC13463023,Supplementary Fig. 5,FALSE,in vitro infection rates and titres,L2,cell-line panel endpoints
+PMC13457592,Fig 3B,FALSE,flow cytometry of patient samples,L2,human NK subset frequencies
+PMC13457592,Fig 4D,FALSE,flow cytometry Ki-67+ NK cells,L2,"naive mice, endpoint"
+PMC13457592,Fig 4E,TRUE,tumour volume,L2,"per-mouse B2m-KO MC38 volumes days 0-24, control n=4 vs Ncr1iCre Nr4a1fl/fl n=5; day 0 recorded as 0"
+PMC13457592,Fig 4M,TRUE,tumour volume,L2,"per-mouse RMA-S volumes days 0-17, control n=7 vs KO n=6; day 0 recorded as 0, four measured points after"
+PMC13457592,Fig 6P,FALSE,flow cytokine percentages,L2,endpoint per-sample
+PMC13457592,Fig 7G,TRUE,tumour volume,L2,"per-mouse tumour growth days 0-25, no NK vs untreated NK vs CsnB-pretreated NK; day 0 recorded as 0"
+PMC13457592,Fig S11B,TRUE,tumour volume (inferred; SI legend),L2,"per-mouse series days 0-12, vehicle vs CsnB n=5; days 0 and 4 recorded as 0, four measured points after"
+PMC13421458,Fig.2,TRUE,tumour volume,L2,"2C per-mouse melanoma PDX volumes days 1-36 by arm (Veh, N, V, DT, ...)"
+PMC13421458,Fig.3,FALSE,% change in tumour burden and proteomic correlations,L2,one endpoint value per PDX-treatment
+PMC13421458,Fig.4,TRUE,tumour volume,L2,"4A/4B per-mouse long-term PDX volumes by day, Veh/N/DT/DTN"
+PMC13421458,Fig.5,FALSE,MCL1 H-scores and correlations,L2,IHC and endpoint % change
+PMC13421458,Fig.6,TRUE,tumour volume,L4,"6E-F lower block: per-mouse WM4380_R PDX volumes days 1-49, Veh/A/DTA/NA/VA; top panels are ex vivo BH3 profiling"
+PMC13421458,Fig. S1,FALSE,TCGA RPPA and patient expression,L2,"human data, no series"
+PMC13421458,Fig. S2,TRUE,tumour volume,L2,"S2A/S2B per-mouse PDX volumes by day, Veh/N/T/TN"
+PMC13500556,Fig.1C,TRUE,tumour volume,L2,"per-mouse KPCmut volumes days 7-25, shNT vs two shDgat1, n=8; second block below"
+PMC13500556,Fig.1D,TRUE,tumour volume,L2,"per-mouse KPCmut volumes days 7-26 in the second host strain, n=6 (legend puts D as weight; the sheet holds a day-by-mouse volume grid)"
+PMC13500556,Fig.1H,FALSE,flow cytometry percentages,L2,"tumour-infiltrating T cells, endpoint"
+PMC13500556,Fig.3B,TRUE,tumour volume,L2,"per-mouse KPCflox volumes days 9-21, shNT/shDg1 with IgG, anti-CD8, anti-CD4, n=6"
+PMC13500556,Fig.4A,TRUE,tumour volume,L2,"per-mouse KPCflox volumes days 10-21, shNT/shDgat1/+WT/+H426A mutant, n=6"
+PMC13500556,Fig.4G,TRUE,tumour volume,L2,"per-mouse KPCflox volumes days 8-23, shNT/shCd36/shDgat1/double, n=6"
+PMC13500556,Fig.5I,TRUE,tumour volume,L2,"per-mouse OVA-KPCflox volumes days 10-22 in nude mice with OT-I transfer, four arms n=6"
+PMC13500556,Fig.6K,TRUE,tumour volume,L2,"per-mouse OVA-KPCflox volumes days 10-22 with OT-I transfer, four arms n=6"
+PMC13500556,Fig. S1E,FALSE,in vitro proliferation,L2,relative cell growth day 1-4 in culture
+PMC13500556,Fig. S1H,TRUE,tumour volume (inferred; SI legend),L2,"per-mouse KC6141 volumes days 7-17, shNT vs shDgat1"
+PMC13500556,Fig. S1I,TRUE,tumour volume (inferred; SI legend),L2,"per-mouse KC6141 volumes days 7-22, shNT vs two shDgat1"
+PMC13500556,Fig. S1J,TRUE,tumour volume (inferred; SI legend),L2,"per-mouse KPCflox volumes days 9-28, shNT vs two shDg1"
+PMC13500556,Fig. S1K,TRUE,tumour volume (inferred; SI legend),L2,"per-mouse KPCflox volumes days 7-17 (4 points), three arms; endpoint weights below"

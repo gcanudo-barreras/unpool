@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"     # the gate, weekly: publisher bytes can move
+
+jobs:
+  smoke:
+    # Offline, synthetic data, seconds. Runs on every push.
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e .
+      - run: python tests/test_smoke.py
+      - run: unpool mine demo
+      - run: unpool fingerprint demo
+      - run: unpool desk selftest
+
+  gate:
+    # The real gate needs the publishers' files, so it fetches them first.
+    # Not on every push: it is slow and it depends on hosts we do not run.
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    env:
+      DRYAD_TOKEN: ${{ secrets.DRYAD_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"     # pyproject: measured_on
+      - run: pip install -e .
+      - run: python fixtures/fetch.py --skip dryad
+      - run: python tests/test_recall.py

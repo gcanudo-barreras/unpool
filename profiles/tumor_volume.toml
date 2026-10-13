@@ -1,0 +1,125 @@
+# Per-animal longitudinal tumour volume — the profile this toolchain was built
+# on and the only one with a measured recall figure behind it.
+#
+# EVERY REGEX BELOW IS A VERBATIM EXTRACTION from si_scan.py's module-level
+# constants. Several clauses exist because of ONE file each, and that file is
+# named beside the clause. They are evidence, not decoration: a clause removed
+# because it "looks redundant" silently reopens the false negative it closed.
+
+name = "tumor_volume"
+description = "per-subject longitudinal tumour volume (or BLI flux) from supplementary tables"
+
+[columns]
+# The per-subject identifier column.
+# `rat|rats` added after a behavioural-neuroscience user built a
+# profile from this one and reported that the subject pattern names the mouse
+# and not the rat -- an oncology assumption nobody had examined, in a field
+# where half the longitudinal work is in rats.
+#
+# MEASURED BEFORE APPLYING: 115 accepted sheets before, 115 after, no sheet
+# gained and none lost. That does not VALIDATE it -- every fixture here is a
+# mouse study, so the change is free on what can be measured and correct on
+# principle, which is a weaker claim and the true one.
+subject = '^\s*(mouse|mice|rat|rats|animal|id|subject|tumou?r|sample|no\.?|#)'
+
+# Same intent WITHOUT the `tumou?r` alternative. For a sheet whose first column
+# is the MODEL NAME under a literal `Tumor` header — the PDXNet export
+# convention, col0 = model and a later column = the real per-animal id — the
+# `tumou?r` branch grabs col0 as if it were the id column. Any detector that
+# keys off the ordinal-suffix pattern below needs the REAL id column, so it
+# uses this instead of loosening `subject` and risking a regression wherever
+# that looseness is load-bearing.
+subject_strict = '^\s*(mouse|mice|rat|rats|animal|id|subject|sample|no\.?|#)'
+
+# The ordered covariate. For this profile it is time.
+#
+# THE LEADING `^` WAS REMOVED (V8) AND `\s*` DELIBERATELY KEPT.
+# `judge`'s LONG branch now uses `.search()` here, so a covariate named
+# `cumDay` or `Measurement_day_post_CART_injection` is reachable -- the anchor
+# was doubled, in this pattern AND in the code, and removing one alone does
+# nothing. `\s*` stays because two other call sites still use `.match()`
+# (`header_evidence`, `discipline_signature`), where dropping it would stop
+# matching a header with leading whitespace and silently change the reported
+# `hdr=` label and the worklist ordering. With `\s*` kept, `.match()` behaves
+# EXACTLY as it did before this change and only `.search()` is new.
+#
+# The cost, stated because it is real: under `.search()` this matches `Monday`
+# and `Today`. Measured over 20,330 sheets it cost nothing -- 11 sheets gained,
+# 0 lost -- but the shape of the risk is a substring, not a word.
+covariate = '\s*(day|days|time|timepoint|date|week)'
+
+# The measured value.
+#   `observation` / `obs` / `dv` (dependent variable) are the standard PK/PD
+#     modelling-software export convention — confirmed against LM24LUC.txt
+#     (header `ID  Time  Observation`) and a Zenodo MDA-MB-231-dTomato record
+#     with the identical header, both of which the regex WITHOUT this clause
+#     silently scored "no per-animal table found".
+#   `\bvol\b` (bare "Vol") was added the same way, for LLC_sc_CCSB.txt's header
+#     `ID,Time,Vol` — "volume" alone never matches a column titled just "Vol".
+value = '(volume|tumou?r\s*vol|tv\b|size|bli|flux|radiance|rtv|%\s*change|fold|observation|\bobs\b|\bdv\b|\bvol\b)'
+
+# A day-INDEX suffix on a value-like header (PDXNet's `%dVol t_0`, `t_1`, ...),
+# where the ordinal position substitutes for a day number that is not in the
+# header at all — only its rank in the series.
+ordinal_suffix = '\bt[_\s]*\d+\b'
+
+[response]
+# The values the scanner used to hardcode, restored here unchanged so that
+# tumor_volume behaves EXACTLY as before. Verified: same 115 sheets accepted.
+direction = "increase"
+fold_lo = 1.5              # median fold must reach this
+fold_hi = 0                # 0 = no upper bound; a tumour can grow 50x
+min_consistent = 0.60      # fraction of subjects that must rise
+allow_fractional_axis = false   # a fractional axis is a dose axis, not days
+
+[floors]
+# min_subjects LOWERED 5 -> 4 (V9), by the owner's decision, and
+# measured rather than assumed. A floor of 5 excluded small-n studies
+# STRUCTURALLY, and n=3-4 per arm is ordinary preclinical practice -- more so
+# under 3Rs reduction pressure -- which means the tool was blindest to exactly
+# the studies whose published means are least trustworthy.
+#
+# What it cost is in docs/VALIDATION.md V9, measured over 20,330 sheets, and it
+# travels with the number: lowering a floor can only ADD acceptances, so recall
+# cannot fall, but precision can. Every recall and precision figure in this
+# repository was measured at the floors in force when it was taken.
+#
+# KNOWN AND NOT FIXED HERE: this floor's unit is the SHEET, and the scientific
+# unit is the ARM. A sheet pooling five arms clears it on the total while
+# contributing arms of 2 and 3 animals -- observed on PMC12545207. Making the
+# floor arm-aware is a separate change with its own measurement.
+min_subjects = 4
+min_points = 4
+
+# KNOWN GAP, MEASURED AND DELIBERATELY NOT PATCHED HERE (protocol rule 10)
+# ----------------------------------------------------------------------------
+# This profile accepts an in-vitro IC50 dose-response plate as a per-animal
+# growth series: `pone.0262378.s010.xlsx` sheet `Figure 1A` scored "9 animals,
+# 5 timepoints" by reading a `Dose, uM` column as the time axis and cell-line
+# replicate columns as subjects.
+#
+# `covariate` does NOT match "Dose, uM" — the accept comes through the
+# TRANSPOSE branch on ordinal position alone, which is structural and lives in
+# scan.py, so NO EDIT TO THIS FILE CAN FIX IT. It is the same blindness the
+# ground truth already names on pone0288380 ("an ascending integer run is
+# indistinguishable, on structure alone, from a genuine week-index day
+# header"), firing here on a DESCENDING concentration series.
+#
+# Not patched because a fix tuned on the single example that exposed it is how
+# a tuning set becomes a score. Any fix must be measured on the whole set.
+
+# MEASURED, AND IT IS NOT FLATTERING TO THIS FILE
+# ----------------------------------------------------------------------------
+# Over 22 cached fixtures / 368 sheets, `tumor_volume` accepts 115 sheets and a
+# NULL profile -- every pattern replaced by one that can never match -- accepts
+# 112. These patterns decide 3 sheets out of 115.
+#
+# The 3 are all FLAT LONG-FORMAT TEXT files (`ID,Time,Vol`, `ID Time
+# Observation`). So the patterns are decisive for long format and close to
+# irrelevant for spreadsheets, where structure alone -- a numeric grid with a
+# regular ordinal axis, which no field here touches -- does the deciding.
+#
+# Adapting this file to a new data type therefore works for a long-format
+# export and does almost nothing for a wide sheet. That needs `scan.py`.
+#
+# Nothing was tuned in response. See PROTOCOL.md rule 9.

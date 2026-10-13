@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+# left behind by `pip install -e .`, which the packaging check now runs
+*.egg-info/
+si_cache/
+*_out.csv
+.venv/
+fixtures/cache/
+.venv/
+# Campaign output is regenerable and large, so it stays out -- EXCEPT the
+# artifacts a registered study is cited against. `docs/VALIDATION.md` points at
+# `runs/v10_sample.json` and `runs/v10_verdicts.csv` as its record and neither
+# was in the repository: the same defect V15 found in the recall gate, in a new
+# place. A draw nobody but its author can inspect is not a frozen draw.
+# (`runs/*`, not `runs/`: a negation cannot re-include a file whose parent
+# directory is itself excluded.)
+runs/*
+!runs/v*_sample.json
+!runs/v*_population.csv
+!runs/v*_verdicts.csv
+!runs/v*_legends.csv
+!runs/v*_adjudications.csv
+!runs/v*_pile.csv
+!runs/v*_pile_source.csv
+!runs/v*_timeline.csv
+!runs/v*_extractions.csv
+!runs/v*_extraction_check.csv
+# graphify's output: 1.6 MB of generated graph, HTML viewer and cache, rebuilt
+# from the source in seconds by `graphify update .`. A generated artifact is not
+# the record here -- the builders and the validations are.
+graphify-out/
+fp_corpus/
+_persona_test/
+fp_corpus_mine.csv
+gtest.csv
+fp2/
+example/corpus/

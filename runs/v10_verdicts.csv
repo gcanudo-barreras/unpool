@@ -1,0 +1,21 @@
+i,pmcid,sheet,n,pts,hdr,note,verdict_human,notes
+1,PMC9701143,Extended Data Figure 3,5,5,t,fold=11.6,FALSE,in vitro proliferation of adherent cells over days
+2,PMC7272425,SuppTable1_Wilson,353,5,,fold=1.5,FALSE,"un-normalized gene expression counts, ENSG ids as subjects"
+3,PMC12075843,Fig. 1h,10,18,t,fold=213.9,TRUE,"per-animal tumour burden by week, TAT-CRE vs AD-CRE arms"
+4,PMC12589595,Fig. 8C,28,5,t,fold=6.1,TRUE,"4T1, mice 1..6, Day 0/4/7/11/14/18/21 volumes"
+5,PMC7138317,fig.6C,9,7,,fold=2.4,TRUE,"RETRACTED (V17). Scored FALSE as unresolvable from the documents. The ARTICLE resolves it: Fig 6 legend reads 'tumor volumes at the indicated time points (C) ... injected to the nude mice'. In vivo, per-animal, over days. The sheet alone could not say so; one sentence of the paper could."
+6,PMC11056318,ED Figure 5,12,5,v,fold=1.8,FALSE,"rows are CELL LINES at T0..T4, with p-value columns"
+7,PMC9757829,cell_numbers_D2A1,12,19,,fold=3.0,FALSE,clonal barcode counts per clone
+8,PMC13013626,4,29,4,i,fold=3.9,FALSE,"in vitro conditions; replicate index 1,2,3 read as the time axis"
+9,PMC13179327,Fig. 2A,43,6,t,fold=10.4,TRUE,"Days 0/9/13/16, per-animal tumour volumes, Aged RAGE+/+ arms"
+10,PMC13278948,Table S1,17,4,,fold=39.6,FALSE,clinicopathological cohort characteristics; HUMAN data
+11,PMC7612546,Foglio1,12,15,itv,fold=20.9,FALSE,"in vitro panel: morphology, % viability, mRNA units"
+12,PMC11560846,Fig 3,322,4,i,fold=3.0,TRUE,"Animal ID | D0..D13 per-animal volumes, BALB/c nude n=18"
+13,PMC9236906,EDFig. 6a,39,8,t,fold=3.7,FALSE,Time (minutes) in vitro kinetic assay
+14,PMC12170886,IgG,396,5,i,fold=21.6,FALSE,"proteomics: accession, coverage, PSMs"
+15,PMC9970872,Fig 3d_vol,105,5,v,fold=3.9,TRUE,"raw tumours' volume (mm3) at 1/4/7/10/14 days, one row per tumour"
+16,PMC10942784,Cntrl vs IP (BE2C),7,4,v,fold=4.6,FALSE,proteomics spectral counts
+17,PMC13396614,Supplementary Figure 27a,40,10,t,fold=5.8,TRUE,"Days 1/3/... per-animal volumes, HepG2 vehicle arms"
+18,PMC12397317,Fig 4c,6,6,tv,fold=6.8,FALSE,"Day | Mean | SD per arm -- GROUP-LEVEL aggregate. AGG matches row labels, these are COLUMN headers"
+19,PMC12352675,(flat),25,4,,fold=180.0,FALSE,"HUMAN patient records: name/sex/age/diagnosis, brachytherapy dosimetry"
+20,PMC13372664,Source data_Figure-3f-CDX,8,7,t,fold=47.1,TRUE,"Day | per-animal volumes (mm3), Vehicle vs dHuR-2 arms"

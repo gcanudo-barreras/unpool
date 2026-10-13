@@ -1,0 +1,67 @@
+{
+ "seed": 20261318,
+ "population": 44,
+ "n": 10,
+ "drawn": [
+  {
+   "pmcid": "PMC12685207",
+   "member": "pbio.3003545.s010.xlsx",
+   "sheet": "S6B Fig",
+   "hdr": "sample_ID | tumor | Brcaness_score | OTUD7B | UBE2S | BRCA1 | APEX1 | BST2 | CCL4 | CD1D | DAD1 | ECHS1 | ENG | GFI1 | GGH | HDAC1 | HLA-A | HLA-B | HMGN2 | IDUA | LDHA | LGMN | MGST2 | MGST3 | NMI | "
+  },
+  {
+   "pmcid": "PMC13392447",
+   "member": "41467_2026_73871_MOESM10_ESM.xlsx",
+   "sheet": "Fig. 2 f",
+   "hdr": "ID | Status | Survival time (Month) | Group | MAP2K2 | PDGFRB | FAT4 | KDM5A | ERBB2 | PRDM1 | NDRG1 | LARP4B | ETV5 | RAP1GDS1 | ARNT | LEF1 | BRCA2 | EIF4A2 | BAP1 | LPP | TET2 | TRIM27 | EPAS1 | MB"
+  },
+  {
+   "pmcid": "PMC12966284",
+   "member": "41698_2026_1309_MOESM2_ESM.xlsx",
+   "sheet": "File 1",
+   "hdr": "Anonymized patient ID | Age | Gender | Smoking status | Pack Years | Drinking Status | BMI | Recurrence | Re-recurrence | Deceased | Type of Surgery | Neck Dissection | Adjuvant Therapy | Type of adju"
+  },
+  {
+   "pmcid": "PMC13454145",
+   "member": "41419_2026_8950_MOESM4_ESM.xlsx",
+   "sheet": "FUSCC_clinical_information",
+   "hdr": "ID | Sample | Gender | Age | Surgery | Weight | Laterality | Furhman | TNM_stage | T_stage | N_stage | M_stage | AJCC_stage | Time(mon) | Events | IHC_score | Expression | K08081C | Clear cell renal c"
+  },
+  {
+   "pmcid": "PMC13190318",
+   "member": "41586_2026_10268_MOESM4_ESM.xlsx",
+   "sheet": "ED Fig. 9g",
+   "hdr": "Breast  | Kidney Papillary Cell Carcinoma | Kidney Clear Cell Carcinoma | Kidney Chromophobe | Hepatic carcinoma | Lung carcinoma | Normal\u00a0GTEX | Tumor\u00a0TCGA | Normal\u00a0TCGA | Normal\u00a0GTEX | Tumor\u00a0TCGA | "
+  },
+  {
+   "pmcid": "PMC12517536",
+   "member": "pone.0334104.s040.xlsx",
+   "sheet": "S18",
+   "hdr": "S18 Table The drug sensitivity predicted by oncopredict in the TCGA-KIRC cohort. | Sample ID (Anonymization) | Camptothecin_1003 | Vinblastine_1004 | Cisplatin_1005 | Cytarabine_1006 | Docetaxel_1007 "
+  },
+  {
+   "pmcid": "PMC12367167",
+   "member": "pone.0330197.s001.xls",
+   "sheet": "\u6dcb\u5df4\u7624+\u5927\u961f\u5217+\u7ed3\u5c40",
+   "hdr": "gender | age | heart_rate | sbp | dbp | temperature | spo2 | hematocrit | hemoglobin | platelets | wbc | aniongap | bicarbonate | bun | calcium | chloride | creatinine | glucose | sodium | potassium |"
+  },
+  {
+   "pmcid": "PMC13470201",
+   "member": "41698_2026_1496_MOESM2_ESM.xlsx",
+   "sheet": "demo & ccfDNA & imaging",
+   "hdr": "Patient ID | Age | Sex | Race/Ethnicity | Status | Survival, days | mL Plasma | [cfDNA], ng/mL | % cfDNA | Hemisphere | Lobe | Tumor Volume | Percent Necrosis | Contrast Enhancement | Hemorrhage | ctD"
+  },
+  {
+   "pmcid": "PMC13278948",
+   "member": "41591_2026_4357_MOESM4_ESM.xlsx",
+   "sheet": "Table S1",
+   "hdr": "Table S1. Clinicopathological characteristics of study cohorts | Cohort | BRCA_PLCO | BRCA_TCGA | COAD_HAL | COAD_PLCO | COAD_TCGA | COAD_UKK | HNSC_UKK | LUAD_NLST | LUAD_PLCO | LUAD_TCGA | LUAD_UKE "
+  },
+  {
+   "pmcid": "PMC13428747",
+   "member": "41419_2026_9154_MOESM4_ESM.xlsx",
+   "sheet": "Tabelle1",
+   "hdr": "Table S2: Measurements of tumour size | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 | Day 11 | Day 12 | Day 13 | Recipient mouse | B16F10 | gender | length | width | length "
+  }
+ ]
+}
