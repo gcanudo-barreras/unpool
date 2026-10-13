@@ -3,7 +3,7 @@
     python assets/logo/logo.py path/to/JetBrainsMono-Regular.ttf
 
 -> logo.svg, icon.svg (glyphs as paths, no font needed to view them) and,
-   when Chrome or Edge is found, banner.png (1280x640) and icon.png (400x400).
+   when Chrome or Edge is found, banner.png (1280x640) and icon.png (1024x1024).
 
 An olympic pool split into lanes, one subject per lane. Every lane starts at a
 prompt; the swimmers are cursors. One has not left the block: it is the name,
@@ -174,7 +174,7 @@ def main(font_path):
         print("no Chrome/Edge found: SVGs only")
         return 0
     for svg, name, w, h, fit in ((out["logo"], "banner.png", 1280, 640, .8),
-                                 (out["icon"], "icon.png", 400, 400, .85)):
+                                 (out["icon"], "icon.png", 1024, 1024, .85)):
         png(exe, svg, os.path.join(HERE, name), w, h, fit)
         print(os.path.join(HERE, name))
     return 0

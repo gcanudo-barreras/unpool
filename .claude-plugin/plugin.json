@@ -10,5 +10,6 @@
   "homepage": "https://github.com/gcanudo-barreras/unpool",
   "repository": "https://github.com/gcanudo-barreras/unpool",
   "license": "Apache-2.0",
+  "icon": "assets/logo/icon.png",
   "keywords": ["science", "preclinical", "tumour-growth", "individual-data", "europe-pmc", "data-reuse"]
 }
