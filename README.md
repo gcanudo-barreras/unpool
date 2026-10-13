@@ -105,7 +105,9 @@ checked each sheet's subject count, time points and arm grouping.
 written by an agent from the legend and methods, then checked by the author**
 against the paper -- not blind, the agent's values were in view.
 `described_by` names, per row, any field left unconfirmed (2 sheets);
-`zero_at_start` was checked against the values themselves (S9). `?` and `not
+`zero_at_start` was checked against the values themselves (S9). `animal` is the
+identifier; `subject_label` is the sheet's own text beside each animal, kept
+for tracing, and often repeats across arms. `?` and `not
 stated` mean the documents did not settle it. Before fitting: keep one unit
 (some volumes are cm3 or unstated), and read `zero_at_start` -- a 0 at the first time point is
 copied as written and is often a placeholder for "not yet palpable", which a
