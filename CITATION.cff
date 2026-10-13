@@ -9,6 +9,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-1949-9185"
 version: 0.1.0
 date-released: 2026-10-13
+doi: "10.5281/zenodo.23338014"
 license: Apache-2.0
 repository-code: "https://github.com/gcanudo-barreras/unpool"
 abstract: >-

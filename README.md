@@ -14,6 +14,7 @@
   <a href="docs/METHODS.md">Methods</a> ·
   <a href="docs/VALIDATION.md">Pre-registered studies</a> ·
   <a href="#citing">Cite</a> ·
+  <a href="https://doi.org/10.5281/zenodo.23338014">DOI 10.5281/zenodo.23338014</a> ·
   Apache-2.0
 </p>
 
@@ -231,6 +232,9 @@ Mice do not report their own data; spreadsheets, sometimes, do.
 
 If `unpool` or its measurements help your work, cite it: GitHub's "Cite this
 repository" button reads `CITATION.cff`.
+
+> Canudo-Barreras, G. *unpool* (version 0.1.0). Zenodo.
+> [doi:10.5281/zenodo.23338014](https://doi.org/10.5281/zenodo.23338014)
 
 ## Licence
 
